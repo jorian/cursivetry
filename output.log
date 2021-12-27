@@ -1,0 +1,923 @@
+[0m[1m[33mwarning[0m[0m[1m: unused import: `borrow::Borrow`[0m
+[0m [0m[0m[1m[38;5;12m--> [0m[0msrc/main.rs:1:19[0m
+[0m  [0m[0m[1m[38;5;12m|[0m
+[0m[1m[38;5;12m1[0m[0m [0m[0m[1m[38;5;12m| [0m[0muse std::{rc::Rc, borrow::Borrow};[0m
+[0m  [0m[0m[1m[38;5;12m| [0m[0m                  [0m[0m[1m[33m^^^^^^^^^^^^^^[0m
+[0m  [0m[0m[1m[38;5;12m|[0m
+[0m  [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: `#[warn(unused_imports)]` on by default[0m
+
+[0m[1m[33mwarning[0m[0m[1m: unused imports: `Dialog`, `TextView`[0m
+[0m [0m[0m[1m[38;5;12m--> [0m[0msrc/main.rs:4:13[0m
+[0m  [0m[0m[1m[38;5;12m|[0m
+[0m[1m[38;5;12m4[0m[0m [0m[0m[1m[38;5;12m| [0m[0m    views::{Dialog, TextView}[0m
+[0m  [0m[0m[1m[38;5;12m| [0m[0m            [0m[0m[1m[33m^^^^^^[0m[0m  [0m[0m[1m[33m^^^^^^^^[0m
+
+[0m[1m[33mwarning[0m[0m[1m: field is never read: `local_chains`[0m
+[0m [0m[0m[1m[38;5;12m--> [0m[0msrc/main.rs:9:5[0m
+[0m  [0m[0m[1m[38;5;12m|[0m
+[0m[1m[38;5;12m9[0m[0m [0m[0m[1m[38;5;12m| [0m[0m    pub local_chains: Vec<Rc<Chain>>[0m
+[0m  [0m[0m[1m[38;5;12m| [0m[0m    [0m[0m[1m[33m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m  [0m[0m[1m[38;5;12m|[0m
+[0m  [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: `#[warn(dead_code)]` on by default[0m
+
+[0m[1m[33mwarning[0m[0m[1m: field is never read: `rpc_client`[0m
+[0m  [0m[0m[1m[38;5;12m--> [0m[0msrc/main.rs:26:5[0m
+[0m   [0m[0m[1m[38;5;12m|[0m
+[0m[1m[38;5;12m26[0m[0m [0m[0m[1m[38;5;12m| [0m[0m    rpc_client: Client[0m
+[0m   [0m[0m[1m[38;5;12m| [0m[0m    [0m[0m[1m[33m^^^^^^^^^^^^^^^^^^[0m
+
+[0m[0m[1m[33mwarning[0m[1m:[0m `cursivetry` (bin "cursivetry") generated 4 warnings
+[0m[0m[1m[32m    Finished[0m dev [unoptimized + debuginfo] target(s) in 0.03s
+[0m[0m[1m[32m     Running[0m `target/debug/cursivetry`
+[/home/n41r0j/dev/rust/rust-vrsc-rpc/client/src/chain_config.rs:70] &path = "/home/n41r0j/.komodo/VRSC/VRSC.conf"
+thread 'main' panicked at 'A client: IOError(Kind(NotFound))', src/main.rs:31:80
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+[0m[0m[1m[32m   Compiling[0m cursivetry v0.1.0 (/home/n41r0j/dev/rust/cursivetry)
+[0m[1m[33mwarning[0m[0m[1m: unused import: `borrow::Borrow`[0m
+[0m [0m[0m[1m[38;5;12m--> [0m[0msrc/main.rs:1:19[0m
+[0m  [0m[0m[1m[38;5;12m|[0m
+[0m[1m[38;5;12m1[0m[0m [0m[0m[1m[38;5;12m| [0m[0muse std::{rc::Rc, borrow::Borrow};[0m
+[0m  [0m[0m[1m[38;5;12m| [0m[0m                  [0m[0m[1m[33m^^^^^^^^^^^^^^[0m
+[0m  [0m[0m[1m[38;5;12m|[0m
+[0m  [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: `#[warn(unused_imports)]` on by default[0m
+
+[0m[1m[33mwarning[0m[0m[1m: unused imports: `Dialog`, `TextView`[0m
+[0m [0m[0m[1m[38;5;12m--> [0m[0msrc/main.rs:4:13[0m
+[0m  [0m[0m[1m[38;5;12m|[0m
+[0m[1m[38;5;12m4[0m[0m [0m[0m[1m[38;5;12m| [0m[0m    views::{Dialog, TextView}[0m
+[0m  [0m[0m[1m[38;5;12m| [0m[0m            [0m[0m[1m[33m^^^^^^[0m[0m  [0m[0m[1m[33m^^^^^^^^[0m
+
+[0m[1m[33mwarning[0m[0m[1m: field is never read: `local_chains`[0m
+[0m [0m[0m[1m[38;5;12m--> [0m[0msrc/main.rs:9:5[0m
+[0m  [0m[0m[1m[38;5;12m|[0m
+[0m[1m[38;5;12m9[0m[0m [0m[0m[1m[38;5;12m| [0m[0m    pub local_chains: Vec<Rc<Chain>>[0m
+[0m  [0m[0m[1m[38;5;12m| [0m[0m    [0m[0m[1m[33m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m  [0m[0m[1m[38;5;12m|[0m
+[0m  [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: `#[warn(dead_code)]` on by default[0m
+
+[0m[1m[33mwarning[0m[0m[1m: field is never read: `rpc_client`[0m
+[0m  [0m[0m[1m[38;5;12m--> [0m[0msrc/main.rs:26:5[0m
+[0m   [0m[0m[1m[38;5;12m|[0m
+[0m[1m[38;5;12m26[0m[0m [0m[0m[1m[38;5;12m| [0m[0m    rpc_client: Client[0m
+[0m   [0m[0m[1m[38;5;12m| [0m[0m    [0m[0m[1m[33m^^^^^^^^^^^^^^^^^^[0m
+
+[0m[0m[1m[33mwarning[0m[1m:[0m `cursivetry` (bin "cursivetry") generated 4 warnings
+[0m[0m[1m[32m    Finished[0m dev [unoptimized + debuginfo] target(s) in 1.79s
+[0m[0m[1m[32m     Running[0m `target/debug/cursivetry`
+[/home/n41r0j/dev/rust/rust-vrsc-rpc/client/src/chain_config.rs:70] &path = "/home/n41r0j/.komodo/VRSC/VRSC.conf"
+thread 'main' panicked at 'A client: IOError(Kind(NotFound))', src/main.rs:31:80
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+[0m[0m[1m[32m   Compiling[0m cursivetry v0.1.0 (/home/n41r0j/dev/rust/cursivetry)
+[0m[1m[33mwarning[0m[0m[1m: unused import: `borrow::Borrow`[0m
+[0m [0m[0m[1m[38;5;12m--> [0m[0msrc/main.rs:1:19[0m
+[0m  [0m[0m[1m[38;5;12m|[0m
+[0m[1m[38;5;12m1[0m[0m [0m[0m[1m[38;5;12m| [0m[0muse std::{rc::Rc, borrow::Borrow};[0m
+[0m  [0m[0m[1m[38;5;12m| [0m[0m                  [0m[0m[1m[33m^^^^^^^^^^^^^^[0m
+[0m  [0m[0m[1m[38;5;12m|[0m
+[0m  [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: `#[warn(unused_imports)]` on by default[0m
+
+[0m[1m[33mwarning[0m[0m[1m: unused imports: `Dialog`, `TextView`[0m
+[0m [0m[0m[1m[38;5;12m--> [0m[0msrc/main.rs:4:13[0m
+[0m  [0m[0m[1m[38;5;12m|[0m
+[0m[1m[38;5;12m4[0m[0m [0m[0m[1m[38;5;12m| [0m[0m    views::{Dialog, TextView}[0m
+[0m  [0m[0m[1m[38;5;12m| [0m[0m            [0m[0m[1m[33m^^^^^^[0m[0m  [0m[0m[1m[33m^^^^^^^^[0m
+
+[0m[1m[33mwarning[0m[0m[1m: field is never read: `local_chains`[0m
+[0m [0m[0m[1m[38;5;12m--> [0m[0msrc/main.rs:9:5[0m
+[0m  [0m[0m[1m[38;5;12m|[0m
+[0m[1m[38;5;12m9[0m[0m [0m[0m[1m[38;5;12m| [0m[0m    pub local_chains: Vec<Rc<Chain>>[0m
+[0m  [0m[0m[1m[38;5;12m| [0m[0m    [0m[0m[1m[33m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m  [0m[0m[1m[38;5;12m|[0m
+[0m  [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: `#[warn(dead_code)]` on by default[0m
+
+[0m[1m[33mwarning[0m[0m[1m: field is never read: `rpc_client`[0m
+[0m  [0m[0m[1m[38;5;12m--> [0m[0msrc/main.rs:26:5[0m
+[0m   [0m[0m[1m[38;5;12m|[0m
+[0m[1m[38;5;12m26[0m[0m [0m[0m[1m[38;5;12m| [0m[0m    rpc_client: Client[0m
+[0m   [0m[0m[1m[38;5;12m| [0m[0m    [0m[0m[1m[33m^^^^^^^^^^^^^^^^^^[0m
+
+[0m[0m[1m[33mwarning[0m[1m:[0m `cursivetry` (bin "cursivetry") generated 4 warnings
+[0m[0m[1m[32m    Finished[0m dev [unoptimized + debuginfo] target(s) in 1.66s
+[0m[0m[1m[32m     Running[0m `target/debug/cursivetry`
+[/home/n41r0j/dev/rust/rust-vrsc-rpc/client/src/chain_config.rs:70] &path = "/home/n41r0j/.komodo/VRSC/VRSC.conf"
+thread 'main' panicked at 'A client: IOError(Kind(NotFound))', src/main.rs:31:80
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+[0m[0m[1m[32m   Compiling[0m cursivetry v0.1.0 (/home/n41r0j/dev/rust/cursivetry)
+[0m[1m[33mwarning[0m[0m[1m: unused import: `borrow::Borrow`[0m
+[0m [0m[0m[1m[38;5;12m--> [0m[0msrc/main.rs:1:19[0m
+[0m  [0m[0m[1m[38;5;12m|[0m
+[0m[1m[38;5;12m1[0m[0m [0m[0m[1m[38;5;12m| [0m[0muse std::{rc::Rc, borrow::Borrow};[0m
+[0m  [0m[0m[1m[38;5;12m| [0m[0m                  [0m[0m[1m[33m^^^^^^^^^^^^^^[0m
+[0m  [0m[0m[1m[38;5;12m|[0m
+[0m  [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: `#[warn(unused_imports)]` on by default[0m
+
+[0m[1m[33mwarning[0m[0m[1m: unused imports: `Dialog`, `TextView`[0m
+[0m [0m[0m[1m[38;5;12m--> [0m[0msrc/main.rs:4:13[0m
+[0m  [0m[0m[1m[38;5;12m|[0m
+[0m[1m[38;5;12m4[0m[0m [0m[0m[1m[38;5;12m| [0m[0m    views::{Dialog, TextView}[0m
+[0m  [0m[0m[1m[38;5;12m| [0m[0m            [0m[0m[1m[33m^^^^^^[0m[0m  [0m[0m[1m[33m^^^^^^^^[0m
+
+[0m[1m[33mwarning[0m[0m[1m: field is never read: `local_chains`[0m
+[0m [0m[0m[1m[38;5;12m--> [0m[0msrc/main.rs:9:5[0m
+[0m  [0m[0m[1m[38;5;12m|[0m
+[0m[1m[38;5;12m9[0m[0m [0m[0m[1m[38;5;12m| [0m[0m    pub local_chains: Vec<Rc<Chain>>[0m
+[0m  [0m[0m[1m[38;5;12m| [0m[0m    [0m[0m[1m[33m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m  [0m[0m[1m[38;5;12m|[0m
+[0m  [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: `#[warn(dead_code)]` on by default[0m
+
+[0m[1m[33mwarning[0m[0m[1m: field is never read: `rpc_client`[0m
+[0m  [0m[0m[1m[38;5;12m--> [0m[0msrc/main.rs:26:5[0m
+[0m   [0m[0m[1m[38;5;12m|[0m
+[0m[1m[38;5;12m26[0m[0m [0m[0m[1m[38;5;12m| [0m[0m    rpc_client: Client[0m
+[0m   [0m[0m[1m[38;5;12m| [0m[0m    [0m[0m[1m[33m^^^^^^^^^^^^^^^^^^[0m
+
+[0m[0m[1m[33mwarning[0m[1m:[0m `cursivetry` (bin "cursivetry") generated 4 warnings
+[0m[0m[1m[32m    Finished[0m dev [unoptimized + debuginfo] target(s) in 1.70s
+[0m[0m[1m[32m     Running[0m `target/debug/cursivetry`
+[src/main.rs:31] &name.as_ref() = "VRSC"
+[/home/n41r0j/dev/rust/rust-vrsc-rpc/client/src/chain_config.rs:70] &path = "/home/n41r0j/.komodo/VRSC/VRSC.conf"
+[src/main.rs:31] &name.as_ref() = "VRSCTEST"
+thread 'main' panicked at 'A client: IOError(Kind(NotFound))', src/main.rs:32:80
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+[0m[1m[33mwarning[0m[0m[1m: unused import: `borrow::Borrow`[0m
+[0m [0m[0m[1m[38;5;12m--> [0m[0msrc/main.rs:1:19[0m
+[0m  [0m[0m[1m[38;5;12m|[0m
+[0m[1m[38;5;12m1[0m[0m [0m[0m[1m[38;5;12m| [0m[0muse std::{rc::Rc, borrow::Borrow};[0m
+[0m  [0m[0m[1m[38;5;12m| [0m[0m                  [0m[0m[1m[33m^^^^^^^^^^^^^^[0m
+[0m  [0m[0m[1m[38;5;12m|[0m
+[0m  [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: `#[warn(unused_imports)]` on by default[0m
+
+[0m[1m[33mwarning[0m[0m[1m: unused imports: `Dialog`, `TextView`[0m
+[0m [0m[0m[1m[38;5;12m--> [0m[0msrc/main.rs:4:13[0m
+[0m  [0m[0m[1m[38;5;12m|[0m
+[0m[1m[38;5;12m4[0m[0m [0m[0m[1m[38;5;12m| [0m[0m    views::{Dialog, TextView}[0m
+[0m  [0m[0m[1m[38;5;12m| [0m[0m            [0m[0m[1m[33m^^^^^^[0m[0m  [0m[0m[1m[33m^^^^^^^^[0m
+
+[0m[1m[33mwarning[0m[0m[1m: field is never read: `local_chains`[0m
+[0m [0m[0m[1m[38;5;12m--> [0m[0msrc/main.rs:9:5[0m
+[0m  [0m[0m[1m[38;5;12m|[0m
+[0m[1m[38;5;12m9[0m[0m [0m[0m[1m[38;5;12m| [0m[0m    pub local_chains: Vec<Rc<Chain>>[0m
+[0m  [0m[0m[1m[38;5;12m| [0m[0m    [0m[0m[1m[33m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m  [0m[0m[1m[38;5;12m|[0m
+[0m  [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: `#[warn(dead_code)]` on by default[0m
+
+[0m[1m[33mwarning[0m[0m[1m: field is never read: `rpc_client`[0m
+[0m  [0m[0m[1m[38;5;12m--> [0m[0msrc/main.rs:26:5[0m
+[0m   [0m[0m[1m[38;5;12m|[0m
+[0m[1m[38;5;12m26[0m[0m [0m[0m[1m[38;5;12m| [0m[0m    rpc_client: Client[0m
+[0m   [0m[0m[1m[38;5;12m| [0m[0m    [0m[0m[1m[33m^^^^^^^^^^^^^^^^^^[0m
+
+[0m[0m[1m[33mwarning[0m[1m:[0m `cursivetry` (bin "cursivetry") generated 4 warnings
+[0m[0m[1m[32m    Finished[0m dev [unoptimized + debuginfo] target(s) in 0.03s
+[0m[0m[1m[32m     Running[0m `target/debug/cursivetry`
+[src/main.rs:31] &name.as_ref() = "VRSC"
+[/home/n41r0j/dev/rust/rust-vrsc-rpc/client/src/chain_config.rs:70] &path = "/home/n41r0j/.komodo/VRSC/VRSC.conf"
+[src/main.rs:31] &name.as_ref() = "VRSCTEST"
+thread 'main' panicked at 'A client: IOError(Kind(NotFound))', src/main.rs:32:80
+stack backtrace:
+   0: rust_begin_unwind
+             at /rustc/efec545293b9263be9edfb283a7aa66350b3acbf/library/std/src/panicking.rs:498:5
+   1: core::panicking::panic_fmt
+             at /rustc/efec545293b9263be9edfb283a7aa66350b3acbf/library/core/src/panicking.rs:107:14
+   2: core::result::unwrap_failed
+             at /rustc/efec545293b9263be9edfb283a7aa66350b3acbf/library/core/src/result.rs:1660:5
+   3: core::result::Result<T,E>::expect
+             at /rustc/efec545293b9263be9edfb283a7aa66350b3acbf/library/core/src/result.rs:1302:23
+   4: cursivetry::Chain::new
+             at ./src/main.rs:32:26
+   5: cursivetry::Data::new
+             at ./src/main.rs:15:37
+   6: cursivetry::main
+             at ./src/main.rs:40:23
+   7: core::ops::function::FnOnce::call_once
+             at /rustc/efec545293b9263be9edfb283a7aa66350b3acbf/library/core/src/ops/function.rs:227:5
+note: Some details are omitted, run with `RUST_BACKTRACE=full` for a verbose backtrace.
+[0m[0m[1m[32m   Compiling[0m cursivetry v0.1.0 (/home/n41r0j/dev/rust/cursivetry)
+[0m[1m[33mwarning[0m[0m[1m: unused import: `borrow::Borrow`[0m
+[0m [0m[0m[1m[38;5;12m--> [0m[0msrc/main.rs:1:19[0m
+[0m  [0m[0m[1m[38;5;12m|[0m
+[0m[1m[38;5;12m1[0m[0m [0m[0m[1m[38;5;12m| [0m[0muse std::{rc::Rc, borrow::Borrow};[0m
+[0m  [0m[0m[1m[38;5;12m| [0m[0m                  [0m[0m[1m[33m^^^^^^^^^^^^^^[0m
+[0m  [0m[0m[1m[38;5;12m|[0m
+[0m  [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: `#[warn(unused_imports)]` on by default[0m
+
+[0m[1m[33mwarning[0m[0m[1m: unused imports: `Dialog`, `TextView`[0m
+[0m [0m[0m[1m[38;5;12m--> [0m[0msrc/main.rs:4:13[0m
+[0m  [0m[0m[1m[38;5;12m|[0m
+[0m[1m[38;5;12m4[0m[0m [0m[0m[1m[38;5;12m| [0m[0m    views::{Dialog, TextView}[0m
+[0m  [0m[0m[1m[38;5;12m| [0m[0m            [0m[0m[1m[33m^^^^^^[0m[0m  [0m[0m[1m[33m^^^^^^^^[0m
+
+[0m[1m[33mwarning[0m[0m[1m: field is never read: `local_chains`[0m
+[0m [0m[0m[1m[38;5;12m--> [0m[0msrc/main.rs:9:5[0m
+[0m  [0m[0m[1m[38;5;12m|[0m
+[0m[1m[38;5;12m9[0m[0m [0m[0m[1m[38;5;12m| [0m[0m    pub local_chains: Vec<Rc<Chain>>[0m
+[0m  [0m[0m[1m[38;5;12m| [0m[0m    [0m[0m[1m[33m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m  [0m[0m[1m[38;5;12m|[0m
+[0m  [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: `#[warn(dead_code)]` on by default[0m
+
+[0m[1m[33mwarning[0m[0m[1m: field is never read: `rpc_client`[0m
+[0m  [0m[0m[1m[38;5;12m--> [0m[0msrc/main.rs:26:5[0m
+[0m   [0m[0m[1m[38;5;12m|[0m
+[0m[1m[38;5;12m26[0m[0m [0m[0m[1m[38;5;12m| [0m[0m    rpc_client: Client[0m
+[0m   [0m[0m[1m[38;5;12m| [0m[0m    [0m[0m[1m[33m^^^^^^^^^^^^^^^^^^[0m
+
+[0m[0m[1m[33mwarning[0m[1m:[0m `cursivetry` (bin "cursivetry") generated 4 warnings
+[0m[0m[1m[32m    Finished[0m dev [unoptimized + debuginfo] target(s) in 1.68s
+[0m[0m[1m[32m     Running[0m `target/debug/cursivetry`
+[src/main.rs:31] &name.as_ref() = "VRSC"
+[/home/n41r0j/dev/rust/rust-vrsc-rpc/client/src/chain_config.rs:70] &path = "/home/n41r0j/.komodo/VRSC/VRSC.conf"
+[src/main.rs:31] &name.as_ref() = "VRSCTEST"
+thread 'main' panicked at 'A client: IOError(Kind(NotFound))', src/main.rs:32:80
+stack backtrace:
+   0: rust_begin_unwind
+             at /rustc/efec545293b9263be9edfb283a7aa66350b3acbf/library/std/src/panicking.rs:498:5
+   1: core::panicking::panic_fmt
+             at /rustc/efec545293b9263be9edfb283a7aa66350b3acbf/library/core/src/panicking.rs:107:14
+   2: core::result::unwrap_failed
+             at /rustc/efec545293b9263be9edfb283a7aa66350b3acbf/library/core/src/result.rs:1660:5
+   3: core::result::Result<T,E>::expect
+             at /rustc/efec545293b9263be9edfb283a7aa66350b3acbf/library/core/src/result.rs:1302:23
+   4: cursivetry::Chain::new
+             at ./src/main.rs:32:26
+   5: cursivetry::Data::new
+             at ./src/main.rs:15:37
+   6: cursivetry::main
+             at ./src/main.rs:40:23
+   7: core::ops::function::FnOnce::call_once
+             at /rustc/efec545293b9263be9edfb283a7aa66350b3acbf/library/core/src/ops/function.rs:227:5
+note: Some details are omitted, run with `RUST_BACKTRACE=full` for a verbose backtrace.
+[0m[0m[1m[32m   Compiling[0m cursivetry v0.1.0 (/home/n41r0j/dev/rust/cursivetry)
+[0m[1m[33mwarning[0m[0m[1m: unused import: `borrow::Borrow`[0m
+[0m [0m[0m[1m[38;5;12m--> [0m[0msrc/main.rs:1:19[0m
+[0m  [0m[0m[1m[38;5;12m|[0m
+[0m[1m[38;5;12m1[0m[0m [0m[0m[1m[38;5;12m| [0m[0muse std::{rc::Rc, borrow::Borrow};[0m
+[0m  [0m[0m[1m[38;5;12m| [0m[0m                  [0m[0m[1m[33m^^^^^^^^^^^^^^[0m
+[0m  [0m[0m[1m[38;5;12m|[0m
+[0m  [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: `#[warn(unused_imports)]` on by default[0m
+
+[0m[1m[33mwarning[0m[0m[1m: unused imports: `Dialog`, `TextView`[0m
+[0m [0m[0m[1m[38;5;12m--> [0m[0msrc/main.rs:4:13[0m
+[0m  [0m[0m[1m[38;5;12m|[0m
+[0m[1m[38;5;12m4[0m[0m [0m[0m[1m[38;5;12m| [0m[0m    views::{Dialog, TextView}[0m
+[0m  [0m[0m[1m[38;5;12m| [0m[0m            [0m[0m[1m[33m^^^^^^[0m[0m  [0m[0m[1m[33m^^^^^^^^[0m
+
+[0m[1m[33mwarning[0m[0m[1m: field is never read: `local_chains`[0m
+[0m [0m[0m[1m[38;5;12m--> [0m[0msrc/main.rs:9:5[0m
+[0m  [0m[0m[1m[38;5;12m|[0m
+[0m[1m[38;5;12m9[0m[0m [0m[0m[1m[38;5;12m| [0m[0m    pub local_chains: Vec<Rc<Chain>>[0m
+[0m  [0m[0m[1m[38;5;12m| [0m[0m    [0m[0m[1m[33m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m  [0m[0m[1m[38;5;12m|[0m
+[0m  [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: `#[warn(dead_code)]` on by default[0m
+
+[0m[1m[33mwarning[0m[0m[1m: field is never read: `rpc_client`[0m
+[0m  [0m[0m[1m[38;5;12m--> [0m[0msrc/main.rs:26:5[0m
+[0m   [0m[0m[1m[38;5;12m|[0m
+[0m[1m[38;5;12m26[0m[0m [0m[0m[1m[38;5;12m| [0m[0m    rpc_client: Client[0m
+[0m   [0m[0m[1m[38;5;12m| [0m[0m    [0m[0m[1m[33m^^^^^^^^^^^^^^^^^^[0m
+
+[0m[0m[1m[33mwarning[0m[1m:[0m `cursivetry` (bin "cursivetry") generated 4 warnings
+[0m[0m[1m[32m    Finished[0m dev [unoptimized + debuginfo] target(s) in 1.67s
+[0m[0m[1m[32m     Running[0m `target/debug/cursivetry`
+thread 'main' panicked at 'A client: IOError(Kind(NotFound))', src/main.rs:31:80
+stack backtrace:
+   0: rust_begin_unwind
+             at /rustc/efec545293b9263be9edfb283a7aa66350b3acbf/library/std/src/panicking.rs:498:5
+   1: core::panicking::panic_fmt
+             at /rustc/efec545293b9263be9edfb283a7aa66350b3acbf/library/core/src/panicking.rs:107:14
+   2: core::result::unwrap_failed
+             at /rustc/efec545293b9263be9edfb283a7aa66350b3acbf/library/core/src/result.rs:1660:5
+   3: core::result::Result<T,E>::expect
+             at /rustc/efec545293b9263be9edfb283a7aa66350b3acbf/library/core/src/result.rs:1302:23
+   4: cursivetry::Chain::new
+             at ./src/main.rs:31:26
+   5: cursivetry::Data::new
+             at ./src/main.rs:14:29
+   6: cursivetry::main
+             at ./src/main.rs:39:23
+   7: core::ops::function::FnOnce::call_once
+             at /rustc/efec545293b9263be9edfb283a7aa66350b3acbf/library/core/src/ops/function.rs:227:5
+note: Some details are omitted, run with `RUST_BACKTRACE=full` for a verbose backtrace.
+[0m[0m[1m[32m   Compiling[0m cursivetry v0.1.0 (/home/n41r0j/dev/rust/cursivetry)
+[0m[1m[33mwarning[0m[0m[1m: unused import: `borrow::Borrow`[0m
+[0m [0m[0m[1m[38;5;12m--> [0m[0msrc/main.rs:1:19[0m
+[0m  [0m[0m[1m[38;5;12m|[0m
+[0m[1m[38;5;12m1[0m[0m [0m[0m[1m[38;5;12m| [0m[0muse std::{rc::Rc, borrow::Borrow};[0m
+[0m  [0m[0m[1m[38;5;12m| [0m[0m                  [0m[0m[1m[33m^^^^^^^^^^^^^^[0m
+[0m  [0m[0m[1m[38;5;12m|[0m
+[0m  [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: `#[warn(unused_imports)]` on by default[0m
+
+[0m[1m[33mwarning[0m[0m[1m: unused imports: `Dialog`, `TextView`[0m
+[0m [0m[0m[1m[38;5;12m--> [0m[0msrc/main.rs:4:13[0m
+[0m  [0m[0m[1m[38;5;12m|[0m
+[0m[1m[38;5;12m4[0m[0m [0m[0m[1m[38;5;12m| [0m[0m    views::{Dialog, TextView}[0m
+[0m  [0m[0m[1m[38;5;12m| [0m[0m            [0m[0m[1m[33m^^^^^^[0m[0m  [0m[0m[1m[33m^^^^^^^^[0m
+
+[0m[1m[33mwarning[0m[0m[1m: field is never read: `local_chains`[0m
+[0m [0m[0m[1m[38;5;12m--> [0m[0msrc/main.rs:9:5[0m
+[0m  [0m[0m[1m[38;5;12m|[0m
+[0m[1m[38;5;12m9[0m[0m [0m[0m[1m[38;5;12m| [0m[0m    pub local_chains: Vec<Rc<Chain>>[0m
+[0m  [0m[0m[1m[38;5;12m| [0m[0m    [0m[0m[1m[33m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m  [0m[0m[1m[38;5;12m|[0m
+[0m  [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: `#[warn(dead_code)]` on by default[0m
+
+[0m[1m[33mwarning[0m[0m[1m: field is never read: `rpc_client`[0m
+[0m  [0m[0m[1m[38;5;12m--> [0m[0msrc/main.rs:26:5[0m
+[0m   [0m[0m[1m[38;5;12m|[0m
+[0m[1m[38;5;12m26[0m[0m [0m[0m[1m[38;5;12m| [0m[0m    rpc_client: Client[0m
+[0m   [0m[0m[1m[38;5;12m| [0m[0m    [0m[0m[1m[33m^^^^^^^^^^^^^^^^^^[0m
+
+[0m[0m[1m[33mwarning[0m[1m:[0m `cursivetry` (bin "cursivetry") generated 4 warnings
+[0m[0m[1m[32m    Finished[0m dev [unoptimized + debuginfo] target(s) in 1.68s
+[0m[0m[1m[32m     Running[0m `target/debug/cursivetry`
+[src/main.rs:31] &name.as_ref() = "ILN"
+thread 'main' panicked at 'A client: IOError(Kind(NotFound))', src/main.rs:32:80
+stack backtrace:
+   0: rust_begin_unwind
+             at /rustc/efec545293b9263be9edfb283a7aa66350b3acbf/library/std/src/panicking.rs:498:5
+   1: core::panicking::panic_fmt
+             at /rustc/efec545293b9263be9edfb283a7aa66350b3acbf/library/core/src/panicking.rs:107:14
+   2: core::result::unwrap_failed
+             at /rustc/efec545293b9263be9edfb283a7aa66350b3acbf/library/core/src/result.rs:1660:5
+   3: core::result::Result<T,E>::expect
+             at /rustc/efec545293b9263be9edfb283a7aa66350b3acbf/library/core/src/result.rs:1302:23
+   4: cursivetry::Chain::new
+             at ./src/main.rs:32:26
+   5: cursivetry::Data::new
+             at ./src/main.rs:14:29
+   6: cursivetry::main
+             at ./src/main.rs:40:23
+   7: core::ops::function::FnOnce::call_once
+             at /rustc/efec545293b9263be9edfb283a7aa66350b3acbf/library/core/src/ops/function.rs:227:5
+note: Some details are omitted, run with `RUST_BACKTRACE=full` for a verbose backtrace.
+[0m[0m[1m[32m   Compiling[0m cursivetry v0.1.0 (/home/n41r0j/dev/rust/cursivetry)
+[0m[1m[33mwarning[0m[0m[1m: unused import: `borrow::Borrow`[0m
+[0m [0m[0m[1m[38;5;12m--> [0m[0msrc/main.rs:1:19[0m
+[0m  [0m[0m[1m[38;5;12m|[0m
+[0m[1m[38;5;12m1[0m[0m [0m[0m[1m[38;5;12m| [0m[0muse std::{rc::Rc, borrow::Borrow};[0m
+[0m  [0m[0m[1m[38;5;12m| [0m[0m                  [0m[0m[1m[33m^^^^^^^^^^^^^^[0m
+[0m  [0m[0m[1m[38;5;12m|[0m
+[0m  [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: `#[warn(unused_imports)]` on by default[0m
+
+[0m[1m[33mwarning[0m[0m[1m: unused imports: `Dialog`, `TextView`[0m
+[0m [0m[0m[1m[38;5;12m--> [0m[0msrc/main.rs:4:13[0m
+[0m  [0m[0m[1m[38;5;12m|[0m
+[0m[1m[38;5;12m4[0m[0m [0m[0m[1m[38;5;12m| [0m[0m    views::{Dialog, TextView}[0m
+[0m  [0m[0m[1m[38;5;12m| [0m[0m            [0m[0m[1m[33m^^^^^^[0m[0m  [0m[0m[1m[33m^^^^^^^^[0m
+
+[0m[1m[33mwarning[0m[0m[1m: field is never read: `local_chains`[0m
+[0m [0m[0m[1m[38;5;12m--> [0m[0msrc/main.rs:9:5[0m
+[0m  [0m[0m[1m[38;5;12m|[0m
+[0m[1m[38;5;12m9[0m[0m [0m[0m[1m[38;5;12m| [0m[0m    pub local_chains: Vec<Rc<Chain>>[0m
+[0m  [0m[0m[1m[38;5;12m| [0m[0m    [0m[0m[1m[33m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m  [0m[0m[1m[38;5;12m|[0m
+[0m  [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: `#[warn(dead_code)]` on by default[0m
+
+[0m[1m[33mwarning[0m[0m[1m: field is never read: `rpc_client`[0m
+[0m  [0m[0m[1m[38;5;12m--> [0m[0msrc/main.rs:26:5[0m
+[0m   [0m[0m[1m[38;5;12m|[0m
+[0m[1m[38;5;12m26[0m[0m [0m[0m[1m[38;5;12m| [0m[0m    rpc_client: Client[0m
+[0m   [0m[0m[1m[38;5;12m| [0m[0m    [0m[0m[1m[33m^^^^^^^^^^^^^^^^^^[0m
+
+[0m[0m[1m[33mwarning[0m[1m:[0m `cursivetry` (bin "cursivetry") generated 4 warnings
+[0m[0m[1m[32m    Finished[0m dev [unoptimized + debuginfo] target(s) in 1.64s
+[0m[0m[1m[32m     Running[0m `target/debug/cursivetry`
+[src/main.rs:31] &name.as_ref() = "ILN"
+[/home/n41r0j/dev/rust/rust-vrsc-rpc/client/src/chain_config.rs:70] &path = "/home/n41r0j/.komodo/VRSC/VRSC.conf"
+[/home/n41r0j/dev/rust/rust-vrsc-rpc/client/src/chain_config.rs:70] &path = "/home/n41r0j/.komodo/VRSC/VRSC.conf"
+thread 'main' panicked at 'A client: IOError(Kind(NotFound))', src/main.rs:51:89
+stack backtrace:
+   0: rust_begin_unwind
+             at /rustc/efec545293b9263be9edfb283a7aa66350b3acbf/library/std/src/panicking.rs:498:5
+   1: core::panicking::panic_fmt
+             at /rustc/efec545293b9263be9edfb283a7aa66350b3acbf/library/core/src/panicking.rs:107:14
+   2: core::result::unwrap_failed
+             at /rustc/efec545293b9263be9edfb283a7aa66350b3acbf/library/core/src/result.rs:1660:5
+   3: core::result::Result<T,E>::expect
+             at /rustc/efec545293b9263be9edfb283a7aa66350b3acbf/library/core/src/result.rs:1302:23
+   4: cursivetry::main::{{closure}}
+             at ./src/main.rs:51:38
+   5: cursive_core::with::With::with
+             at /home/n41r0j/.cargo/registry/src/github.com-1ecc6299db9ec823/cursive_core-0.2.2/src/with.rs:12:9
+   6: cursivetry::main
+             at ./src/main.rs:44:9
+   7: core::ops::function::FnOnce::call_once
+             at /rustc/efec545293b9263be9edfb283a7aa66350b3acbf/library/core/src/ops/function.rs:227:5
+note: Some details are omitted, run with `RUST_BACKTRACE=full` for a verbose backtrace.
+[0m[0m[1m[32m   Compiling[0m cursivetry v0.1.0 (/home/n41r0j/dev/rust/cursivetry)
+[0m[1m[33mwarning[0m[0m[1m: unused import: `borrow::Borrow`[0m
+[0m [0m[0m[1m[38;5;12m--> [0m[0msrc/main.rs:1:19[0m
+[0m  [0m[0m[1m[38;5;12m|[0m
+[0m[1m[38;5;12m1[0m[0m [0m[0m[1m[38;5;12m| [0m[0muse std::{rc::Rc, borrow::Borrow};[0m
+[0m  [0m[0m[1m[38;5;12m| [0m[0m                  [0m[0m[1m[33m^^^^^^^^^^^^^^[0m
+[0m  [0m[0m[1m[38;5;12m|[0m
+[0m  [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: `#[warn(unused_imports)]` on by default[0m
+
+[0m[1m[33mwarning[0m[0m[1m: unused imports: `Dialog`, `TextView`[0m
+[0m [0m[0m[1m[38;5;12m--> [0m[0msrc/main.rs:4:13[0m
+[0m  [0m[0m[1m[38;5;12m|[0m
+[0m[1m[38;5;12m4[0m[0m [0m[0m[1m[38;5;12m| [0m[0m    views::{Dialog, TextView}[0m
+[0m  [0m[0m[1m[38;5;12m| [0m[0m            [0m[0m[1m[33m^^^^^^[0m[0m  [0m[0m[1m[33m^^^^^^^^[0m
+
+[0m[1m[33mwarning[0m[0m[1m: field is never read: `local_chains`[0m
+[0m [0m[0m[1m[38;5;12m--> [0m[0msrc/main.rs:9:5[0m
+[0m  [0m[0m[1m[38;5;12m|[0m
+[0m[1m[38;5;12m9[0m[0m [0m[0m[1m[38;5;12m| [0m[0m    pub local_chains: Vec<Rc<Chain>>[0m
+[0m  [0m[0m[1m[38;5;12m| [0m[0m    [0m[0m[1m[33m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m  [0m[0m[1m[38;5;12m|[0m
+[0m  [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: `#[warn(dead_code)]` on by default[0m
+
+[0m[1m[33mwarning[0m[0m[1m: field is never read: `rpc_client`[0m
+[0m  [0m[0m[1m[38;5;12m--> [0m[0msrc/main.rs:26:5[0m
+[0m   [0m[0m[1m[38;5;12m|[0m
+[0m[1m[38;5;12m26[0m[0m [0m[0m[1m[38;5;12m| [0m[0m    rpc_client: Client[0m
+[0m   [0m[0m[1m[38;5;12m| [0m[0m    [0m[0m[1m[33m^^^^^^^^^^^^^^^^^^[0m
+
+[0m[0m[1m[33mwarning[0m[1m:[0m `cursivetry` (bin "cursivetry") generated 4 warnings
+[0m[0m[1m[32m    Finished[0m dev [unoptimized + debuginfo] target(s) in 1.66s
+[0m[0m[1m[32m     Running[0m `target/debug/cursivetry`
+[src/main.rs:31] &name.as_ref() = "VRSC"
+[/home/n41r0j/dev/rust/rust-vrsc-rpc/client/src/chain_config.rs:70] &path = "/home/n41r0j/.komodo/VRSC/VRSC.conf"
+[/home/n41r0j/dev/rust/rust-vrsc-rpc/client/src/chain_config.rs:70] &path = "/home/n41r0j/.komodo/VRSC/VRSC.conf"
+thread 'main' panicked at 'A client: IOError(Kind(NotFound))', src/main.rs:51:89
+stack backtrace:
+   0: rust_begin_unwind
+             at /rustc/efec545293b9263be9edfb283a7aa66350b3acbf/library/std/src/panicking.rs:498:5
+   1: core::panicking::panic_fmt
+             at /rustc/efec545293b9263be9edfb283a7aa66350b3acbf/library/core/src/panicking.rs:107:14
+   2: core::result::unwrap_failed
+             at /rustc/efec545293b9263be9edfb283a7aa66350b3acbf/library/core/src/result.rs:1660:5
+   3: core::result::Result<T,E>::expect
+             at /rustc/efec545293b9263be9edfb283a7aa66350b3acbf/library/core/src/result.rs:1302:23
+   4: cursivetry::main::{{closure}}
+             at ./src/main.rs:51:38
+   5: cursive_core::with::With::with
+             at /home/n41r0j/.cargo/registry/src/github.com-1ecc6299db9ec823/cursive_core-0.2.2/src/with.rs:12:9
+   6: cursivetry::main
+             at ./src/main.rs:44:9
+   7: core::ops::function::FnOnce::call_once
+             at /rustc/efec545293b9263be9edfb283a7aa66350b3acbf/library/core/src/ops/function.rs:227:5
+note: Some details are omitted, run with `RUST_BACKTRACE=full` for a verbose backtrace.
+[0m[0m[1m[32m   Compiling[0m cursivetry v0.1.0 (/home/n41r0j/dev/rust/cursivetry)
+[0m[1m[33mwarning[0m[0m[1m: unused import: `borrow::Borrow`[0m
+[0m [0m[0m[1m[38;5;12m--> [0m[0msrc/main.rs:1:19[0m
+[0m  [0m[0m[1m[38;5;12m|[0m
+[0m[1m[38;5;12m1[0m[0m [0m[0m[1m[38;5;12m| [0m[0muse std::{rc::Rc, borrow::Borrow};[0m
+[0m  [0m[0m[1m[38;5;12m| [0m[0m                  [0m[0m[1m[33m^^^^^^^^^^^^^^[0m
+[0m  [0m[0m[1m[38;5;12m|[0m
+[0m  [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: `#[warn(unused_imports)]` on by default[0m
+
+[0m[1m[33mwarning[0m[0m[1m: unused imports: `Dialog`, `TextView`[0m
+[0m [0m[0m[1m[38;5;12m--> [0m[0msrc/main.rs:4:13[0m
+[0m  [0m[0m[1m[38;5;12m|[0m
+[0m[1m[38;5;12m4[0m[0m [0m[0m[1m[38;5;12m| [0m[0m    views::{Dialog, TextView}[0m
+[0m  [0m[0m[1m[38;5;12m| [0m[0m            [0m[0m[1m[33m^^^^^^[0m[0m  [0m[0m[1m[33m^^^^^^^^[0m
+
+[0m[1m[33mwarning[0m[0m[1m: field is never read: `local_chains`[0m
+[0m [0m[0m[1m[38;5;12m--> [0m[0msrc/main.rs:9:5[0m
+[0m  [0m[0m[1m[38;5;12m|[0m
+[0m[1m[38;5;12m9[0m[0m [0m[0m[1m[38;5;12m| [0m[0m    pub local_chains: Vec<Rc<Chain>>[0m
+[0m  [0m[0m[1m[38;5;12m| [0m[0m    [0m[0m[1m[33m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m  [0m[0m[1m[38;5;12m|[0m
+[0m  [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: `#[warn(dead_code)]` on by default[0m
+
+[0m[1m[33mwarning[0m[0m[1m: field is never read: `rpc_client`[0m
+[0m  [0m[0m[1m[38;5;12m--> [0m[0msrc/main.rs:26:5[0m
+[0m   [0m[0m[1m[38;5;12m|[0m
+[0m[1m[38;5;12m26[0m[0m [0m[0m[1m[38;5;12m| [0m[0m    rpc_client: Client[0m
+[0m   [0m[0m[1m[38;5;12m| [0m[0m    [0m[0m[1m[33m^^^^^^^^^^^^^^^^^^[0m
+
+[0m[0m[1m[33mwarning[0m[1m:[0m `cursivetry` (bin "cursivetry") generated 4 warnings
+[0m[0m[1m[32m    Finished[0m dev [unoptimized + debuginfo] target(s) in 1.69s
+[0m[0m[1m[32m     Running[0m `target/debug/cursivetry`
+[src/main.rs:31] &name.as_ref() = "VRSC"
+[/home/n41r0j/dev/rust/rust-vrsc-rpc/client/src/chain_config.rs:70] &path = "/home/n41r0j/.komodo/VRSC/VRSC.conf"
+[/home/n41r0j/dev/rust/rust-vrsc-rpc/client/src/chain_config.rs:70] &path = "/home/n41r0j/.komodo/VRSC/VRSC.conf"
+[0m[0m[1m[32m   Compiling[0m cursivetry v0.1.0 (/home/n41r0j/dev/rust/cursivetry)
+[0m[1m[33mwarning[0m[0m[1m: unused import: `borrow::Borrow`[0m
+[0m [0m[0m[1m[38;5;12m--> [0m[0msrc/main.rs:1:19[0m
+[0m  [0m[0m[1m[38;5;12m|[0m
+[0m[1m[38;5;12m1[0m[0m [0m[0m[1m[38;5;12m| [0m[0muse std::{rc::Rc, borrow::Borrow};[0m
+[0m  [0m[0m[1m[38;5;12m| [0m[0m                  [0m[0m[1m[33m^^^^^^^^^^^^^^[0m
+[0m  [0m[0m[1m[38;5;12m|[0m
+[0m  [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: `#[warn(unused_imports)]` on by default[0m
+
+[0m[1m[33mwarning[0m[0m[1m: unused imports: `Dialog`, `TextView`[0m
+[0m [0m[0m[1m[38;5;12m--> [0m[0msrc/main.rs:4:13[0m
+[0m  [0m[0m[1m[38;5;12m|[0m
+[0m[1m[38;5;12m4[0m[0m [0m[0m[1m[38;5;12m| [0m[0m    views::{Dialog, TextView}[0m
+[0m  [0m[0m[1m[38;5;12m| [0m[0m            [0m[0m[1m[33m^^^^^^[0m[0m  [0m[0m[1m[33m^^^^^^^^[0m
+
+[0m[1m[33mwarning[0m[0m[1m: field is never read: `local_chains`[0m
+[0m [0m[0m[1m[38;5;12m--> [0m[0msrc/main.rs:9:5[0m
+[0m  [0m[0m[1m[38;5;12m|[0m
+[0m[1m[38;5;12m9[0m[0m [0m[0m[1m[38;5;12m| [0m[0m    pub local_chains: Vec<Rc<Chain>>[0m
+[0m  [0m[0m[1m[38;5;12m| [0m[0m    [0m[0m[1m[33m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m  [0m[0m[1m[38;5;12m|[0m
+[0m  [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: `#[warn(dead_code)]` on by default[0m
+
+[0m[1m[33mwarning[0m[0m[1m: field is never read: `rpc_client`[0m
+[0m  [0m[0m[1m[38;5;12m--> [0m[0msrc/main.rs:26:5[0m
+[0m   [0m[0m[1m[38;5;12m|[0m
+[0m[1m[38;5;12m26[0m[0m [0m[0m[1m[38;5;12m| [0m[0m    rpc_client: Client[0m
+[0m   [0m[0m[1m[38;5;12m| [0m[0m    [0m[0m[1m[33m^^^^^^^^^^^^^^^^^^[0m
+
+[0m[0m[1m[33mwarning[0m[1m:[0m `cursivetry` (bin "cursivetry") generated 4 warnings
+[0m[0m[1m[32m    Finished[0m dev [unoptimized + debuginfo] target(s) in 1.71s
+[0m[0m[1m[32m     Running[0m `target/debug/cursivetry`
+[src/main.rs:31] &name.as_ref() = "VRSC"
+[/home/n41r0j/dev/rust/rust-vrsc-rpc/client/src/chain_config.rs:70] &path = "/home/n41r0j/.komodo/VRSC/VRSC.conf"
+[/home/n41r0j/dev/rust/rust-vrsc-rpc/client/src/chain_config.rs:70] &path = "/home/n41r0j/.komodo/VRSC/VRSC.conf"
+[0m[0m[1m[32m   Compiling[0m cursivetry v0.1.0 (/home/n41r0j/dev/rust/cursivetry)
+[0m[1m[33mwarning[0m[0m[1m: unused import: `borrow::Borrow`[0m
+[0m [0m[0m[1m[38;5;12m--> [0m[0msrc/main.rs:1:19[0m
+[0m  [0m[0m[1m[38;5;12m|[0m
+[0m[1m[38;5;12m1[0m[0m [0m[0m[1m[38;5;12m| [0m[0muse std::{rc::Rc, borrow::Borrow};[0m
+[0m  [0m[0m[1m[38;5;12m| [0m[0m                  [0m[0m[1m[33m^^^^^^^^^^^^^^[0m
+[0m  [0m[0m[1m[38;5;12m|[0m
+[0m  [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: `#[warn(unused_imports)]` on by default[0m
+
+[0m[1m[33mwarning[0m[0m[1m: unused imports: `Dialog`, `TextView`[0m
+[0m [0m[0m[1m[38;5;12m--> [0m[0msrc/main.rs:4:13[0m
+[0m  [0m[0m[1m[38;5;12m|[0m
+[0m[1m[38;5;12m4[0m[0m [0m[0m[1m[38;5;12m| [0m[0m    views::{Dialog, TextView}[0m
+[0m  [0m[0m[1m[38;5;12m| [0m[0m            [0m[0m[1m[33m^^^^^^[0m[0m  [0m[0m[1m[33m^^^^^^^^[0m
+
+[0m[1m[33mwarning[0m[0m[1m: field is never read: `local_chains`[0m
+[0m [0m[0m[1m[38;5;12m--> [0m[0msrc/main.rs:9:5[0m
+[0m  [0m[0m[1m[38;5;12m|[0m
+[0m[1m[38;5;12m9[0m[0m [0m[0m[1m[38;5;12m| [0m[0m    pub local_chains: Vec<Rc<Chain>>[0m
+[0m  [0m[0m[1m[38;5;12m| [0m[0m    [0m[0m[1m[33m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m  [0m[0m[1m[38;5;12m|[0m
+[0m  [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: `#[warn(dead_code)]` on by default[0m
+
+[0m[1m[33mwarning[0m[0m[1m: field is never read: `rpc_client`[0m
+[0m  [0m[0m[1m[38;5;12m--> [0m[0msrc/main.rs:26:5[0m
+[0m   [0m[0m[1m[38;5;12m|[0m
+[0m[1m[38;5;12m26[0m[0m [0m[0m[1m[38;5;12m| [0m[0m    rpc_client: Client[0m
+[0m   [0m[0m[1m[38;5;12m| [0m[0m    [0m[0m[1m[33m^^^^^^^^^^^^^^^^^^[0m
+
+[0m[0m[1m[33mwarning[0m[1m:[0m `cursivetry` (bin "cursivetry") generated 4 warnings
+[0m[0m[1m[32m    Finished[0m dev [unoptimized + debuginfo] target(s) in 1.68s
+[0m[0m[1m[32m     Running[0m `target/debug/cursivetry`
+[src/main.rs:31] &name.as_ref() = "VRSC"
+[/home/n41r0j/dev/rust/rust-vrsc-rpc/client/src/chain_config.rs:70] &path = "/home/n41r0j/.komodo/VRSC/VRSC.conf"
+[/home/n41r0j/dev/rust/rust-vrsc-rpc/client/src/chain_config.rs:70] &path = "/home/n41r0j/.komodo/VRSC/VRSC.conf"
+[0m[0m[1m[32m   Compiling[0m cursivetry v0.1.0 (/home/n41r0j/dev/rust/cursivetry)
+[0m[1m[33mwarning[0m[0m[1m: unused import: `borrow::Borrow`[0m
+[0m [0m[0m[1m[38;5;12m--> [0m[0msrc/main.rs:1:19[0m
+[0m  [0m[0m[1m[38;5;12m|[0m
+[0m[1m[38;5;12m1[0m[0m [0m[0m[1m[38;5;12m| [0m[0muse std::{rc::Rc, borrow::Borrow};[0m
+[0m  [0m[0m[1m[38;5;12m| [0m[0m                  [0m[0m[1m[33m^^^^^^^^^^^^^^[0m
+[0m  [0m[0m[1m[38;5;12m|[0m
+[0m  [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: `#[warn(unused_imports)]` on by default[0m
+
+[0m[1m[33mwarning[0m[0m[1m: unused imports: `Dialog`, `TextView`[0m
+[0m [0m[0m[1m[38;5;12m--> [0m[0msrc/main.rs:4:13[0m
+[0m  [0m[0m[1m[38;5;12m|[0m
+[0m[1m[38;5;12m4[0m[0m [0m[0m[1m[38;5;12m| [0m[0m    views::{Dialog, TextView}[0m
+[0m  [0m[0m[1m[38;5;12m| [0m[0m            [0m[0m[1m[33m^^^^^^[0m[0m  [0m[0m[1m[33m^^^^^^^^[0m
+
+[0m[1m[33mwarning[0m[0m[1m: field is never read: `local_chains`[0m
+[0m [0m[0m[1m[38;5;12m--> [0m[0msrc/main.rs:9:5[0m
+[0m  [0m[0m[1m[38;5;12m|[0m
+[0m[1m[38;5;12m9[0m[0m [0m[0m[1m[38;5;12m| [0m[0m    pub local_chains: Vec<Rc<Chain>>[0m
+[0m  [0m[0m[1m[38;5;12m| [0m[0m    [0m[0m[1m[33m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m  [0m[0m[1m[38;5;12m|[0m
+[0m  [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: `#[warn(dead_code)]` on by default[0m
+
+[0m[1m[33mwarning[0m[0m[1m: field is never read: `rpc_client`[0m
+[0m  [0m[0m[1m[38;5;12m--> [0m[0msrc/main.rs:26:5[0m
+[0m   [0m[0m[1m[38;5;12m|[0m
+[0m[1m[38;5;12m26[0m[0m [0m[0m[1m[38;5;12m| [0m[0m    rpc_client: Client[0m
+[0m   [0m[0m[1m[38;5;12m| [0m[0m    [0m[0m[1m[33m^^^^^^^^^^^^^^^^^^[0m
+
+[0m[0m[1m[33mwarning[0m[1m:[0m `cursivetry` (bin "cursivetry") generated 4 warnings
+[0m[0m[1m[32m    Finished[0m dev [unoptimized + debuginfo] target(s) in 1.85s
+[0m[0m[1m[32m     Running[0m `target/debug/cursivetry`
+[src/main.rs:31] &name.as_ref() = "VRSC"
+[/home/n41r0j/dev/rust/rust-vrsc-rpc/client/src/chain_config.rs:70] &path = "/home/n41r0j/.komodo/VRSC/VRSC.conf"
+[/home/n41r0j/dev/rust/rust-vrsc-rpc/client/src/chain_config.rs:70] &path = "/home/n41r0j/.komodo/VRSC/VRSC.conf"
+[0m[0m[1m[32m   Compiling[0m cursivetry v0.1.0 (/home/n41r0j/dev/rust/cursivetry)
+[0m[1m[33mwarning[0m[0m[1m: unused import: `borrow::Borrow`[0m
+[0m [0m[0m[1m[38;5;12m--> [0m[0msrc/main.rs:1:19[0m
+[0m  [0m[0m[1m[38;5;12m|[0m
+[0m[1m[38;5;12m1[0m[0m [0m[0m[1m[38;5;12m| [0m[0muse std::{rc::Rc, borrow::Borrow};[0m
+[0m  [0m[0m[1m[38;5;12m| [0m[0m                  [0m[0m[1m[33m^^^^^^^^^^^^^^[0m
+[0m  [0m[0m[1m[38;5;12m|[0m
+[0m  [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: `#[warn(unused_imports)]` on by default[0m
+
+[0m[1m[33mwarning[0m[0m[1m: unused imports: `Dialog`, `TextView`[0m
+[0m [0m[0m[1m[38;5;12m--> [0m[0msrc/main.rs:4:13[0m
+[0m  [0m[0m[1m[38;5;12m|[0m
+[0m[1m[38;5;12m4[0m[0m [0m[0m[1m[38;5;12m| [0m[0m    views::{Dialog, TextView}[0m
+[0m  [0m[0m[1m[38;5;12m| [0m[0m            [0m[0m[1m[33m^^^^^^[0m[0m  [0m[0m[1m[33m^^^^^^^^[0m
+
+[0m[1m[33mwarning[0m[0m[1m: field is never read: `local_chains`[0m
+[0m [0m[0m[1m[38;5;12m--> [0m[0msrc/main.rs:9:5[0m
+[0m  [0m[0m[1m[38;5;12m|[0m
+[0m[1m[38;5;12m9[0m[0m [0m[0m[1m[38;5;12m| [0m[0m    pub local_chains: Vec<Rc<Chain>>[0m
+[0m  [0m[0m[1m[38;5;12m| [0m[0m    [0m[0m[1m[33m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m  [0m[0m[1m[38;5;12m|[0m
+[0m  [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: `#[warn(dead_code)]` on by default[0m
+
+[0m[1m[33mwarning[0m[0m[1m: field is never read: `rpc_client`[0m
+[0m  [0m[0m[1m[38;5;12m--> [0m[0msrc/main.rs:26:5[0m
+[0m   [0m[0m[1m[38;5;12m|[0m
+[0m[1m[38;5;12m26[0m[0m [0m[0m[1m[38;5;12m| [0m[0m    rpc_client: Client[0m
+[0m   [0m[0m[1m[38;5;12m| [0m[0m    [0m[0m[1m[33m^^^^^^^^^^^^^^^^^^[0m
+
+[0m[0m[1m[33mwarning[0m[1m:[0m `cursivetry` (bin "cursivetry") generated 4 warnings
+[0m[0m[1m[32m    Finished[0m dev [unoptimized + debuginfo] target(s) in 1.81s
+[0m[0m[1m[32m     Running[0m `target/debug/cursivetry`
+[src/main.rs:31] &name.as_ref() = "VRSC"
+[/home/n41r0j/dev/rust/rust-vrsc-rpc/client/src/chain_config.rs:70] &path = "/home/n41r0j/.komodo/VRSC/VRSC.conf"
+[/home/n41r0j/dev/rust/rust-vrsc-rpc/client/src/chain_config.rs:70] &path = "/home/n41r0j/.komodo/VRSC/VRSC.conf"
+[src/main.rs:59] &data.active.name = "vrsctest"
+[src/main.rs:59] &data.active.name = "VRSC"
+[0m[0m[1m[32m   Compiling[0m cursivetry v0.1.0 (/home/n41r0j/dev/rust/cursivetry)
+[0m[1m[33mwarning[0m[0m[1m: unused variable: `local_chains2`[0m
+[0m  [0m[0m[1m[38;5;12m--> [0m[0msrc/main.rs:42:9[0m
+[0m   [0m[0m[1m[38;5;12m|[0m
+[0m[1m[38;5;12m42[0m[0m [0m[0m[1m[38;5;12m| [0m[0m    let local_chains2 = siv[0m
+[0m   [0m[0m[1m[38;5;12m| [0m[0m        [0m[0m[1m[33m^^^^^^^^^^^^^[0m[0m [0m[0m[1m[33mhelp: if this is intentional, prefix it with an underscore: `_local_chains2`[0m
+[0m   [0m[0m[1m[38;5;12m|[0m
+[0m   [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: `#[warn(unused_variables)]` on by default[0m
+
+[0m[1m[33mwarning[0m[0m[1m: field is never read: `rpc_client`[0m
+[0m  [0m[0m[1m[38;5;12m--> [0m[0msrc/main.rs:23:5[0m
+[0m   [0m[0m[1m[38;5;12m|[0m
+[0m[1m[38;5;12m23[0m[0m [0m[0m[1m[38;5;12m| [0m[0m    rpc_client: Client,[0m
+[0m   [0m[0m[1m[38;5;12m| [0m[0m    [0m[0m[1m[33m^^^^^^^^^^^^^^^^^^[0m
+[0m   [0m[0m[1m[38;5;12m|[0m
+[0m   [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: `#[warn(dead_code)]` on by default[0m
+
+[0m[0m[1m[33mwarning[0m[1m:[0m `cursivetry` (bin "cursivetry") generated 2 warnings
+[0m[0m[1m[32m    Finished[0m dev [unoptimized + debuginfo] target(s) in 1.73s
+[0m[0m[1m[32m     Running[0m `target/debug/cursivetry`
+[src/main.rs:28] &name.as_ref() = "VRSC"
+[/home/n41r0j/dev/rust/rust-vrsc-rpc/client/src/chain_config.rs:70] &path = "/home/n41r0j/.komodo/VRSC/VRSC.conf"
+[/home/n41r0j/dev/rust/rust-vrsc-rpc/client/src/chain_config.rs:70] &path = "/home/n41r0j/.komodo/VRSC/VRSC.conf"
+[0m[1m[33mwarning[0m[0m[1m: unused variable: `local_chains2`[0m
+[0m  [0m[0m[1m[38;5;12m--> [0m[0msrc/main.rs:42:9[0m
+[0m   [0m[0m[1m[38;5;12m|[0m
+[0m[1m[38;5;12m42[0m[0m [0m[0m[1m[38;5;12m| [0m[0m    let local_chains2 = siv[0m
+[0m   [0m[0m[1m[38;5;12m| [0m[0m        [0m[0m[1m[33m^^^^^^^^^^^^^[0m[0m [0m[0m[1m[33mhelp: if this is intentional, prefix it with an underscore: `_local_chains2`[0m
+[0m   [0m[0m[1m[38;5;12m|[0m
+[0m   [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: `#[warn(unused_variables)]` on by default[0m
+
+[0m[1m[33mwarning[0m[0m[1m: field is never read: `rpc_client`[0m
+[0m  [0m[0m[1m[38;5;12m--> [0m[0msrc/main.rs:23:5[0m
+[0m   [0m[0m[1m[38;5;12m|[0m
+[0m[1m[38;5;12m23[0m[0m [0m[0m[1m[38;5;12m| [0m[0m    rpc_client: Client,[0m
+[0m   [0m[0m[1m[38;5;12m| [0m[0m    [0m[0m[1m[33m^^^^^^^^^^^^^^^^^^[0m
+[0m   [0m[0m[1m[38;5;12m|[0m
+[0m   [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: `#[warn(dead_code)]` on by default[0m
+
+[0m[0m[1m[33mwarning[0m[1m:[0m `cursivetry` (bin "cursivetry") generated 2 warnings
+[0m[0m[1m[32m    Finished[0m dev [unoptimized + debuginfo] target(s) in 0.03s
+[0m[0m[1m[32m     Running[0m `target/debug/cursivetry`
+[src/main.rs:28] &name.as_ref() = "VRSC"
+[/home/n41r0j/dev/rust/rust-vrsc-rpc/client/src/chain_config.rs:70] &path = "/home/n41r0j/.komodo/VRSC/VRSC.conf"
+[/home/n41r0j/dev/rust/rust-vrsc-rpc/client/src/chain_config.rs:70] &path = "/home/n41r0j/.komodo/VRSC/VRSC.conf"
+[0m[1m[33mwarning[0m[0m[1m: unused variable: `local_chains2`[0m
+[0m  [0m[0m[1m[38;5;12m--> [0m[0msrc/main.rs:42:9[0m
+[0m   [0m[0m[1m[38;5;12m|[0m
+[0m[1m[38;5;12m42[0m[0m [0m[0m[1m[38;5;12m| [0m[0m    let local_chains2 = siv[0m
+[0m   [0m[0m[1m[38;5;12m| [0m[0m        [0m[0m[1m[33m^^^^^^^^^^^^^[0m[0m [0m[0m[1m[33mhelp: if this is intentional, prefix it with an underscore: `_local_chains2`[0m
+[0m   [0m[0m[1m[38;5;12m|[0m
+[0m   [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: `#[warn(unused_variables)]` on by default[0m
+
+[0m[1m[33mwarning[0m[0m[1m: field is never read: `rpc_client`[0m
+[0m  [0m[0m[1m[38;5;12m--> [0m[0msrc/main.rs:23:5[0m
+[0m   [0m[0m[1m[38;5;12m|[0m
+[0m[1m[38;5;12m23[0m[0m [0m[0m[1m[38;5;12m| [0m[0m    rpc_client: Client,[0m
+[0m   [0m[0m[1m[38;5;12m| [0m[0m    [0m[0m[1m[33m^^^^^^^^^^^^^^^^^^[0m
+[0m   [0m[0m[1m[38;5;12m|[0m
+[0m   [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: `#[warn(dead_code)]` on by default[0m
+
+[0m[0m[1m[33mwarning[0m[1m:[0m `cursivetry` (bin "cursivetry") generated 2 warnings
+[0m[0m[1m[32m    Finished[0m dev [unoptimized + debuginfo] target(s) in 0.03s
+[0m[0m[1m[32m     Running[0m `target/debug/cursivetry`
+[src/main.rs:28] &name.as_ref() = "VRSC"
+[/home/n41r0j/dev/rust/rust-vrsc-rpc/client/src/chain_config.rs:70] &path = "/home/n41r0j/.komodo/VRSC/VRSC.conf"
+[/home/n41r0j/dev/rust/rust-vrsc-rpc/client/src/chain_config.rs:70] &path = "/home/n41r0j/.komodo/VRSC/VRSC.conf"
+[0m[0m[1m[32m   Compiling[0m cursivetry v0.1.0 (/home/n41r0j/dev/rust/cursivetry)
+[0m[1m[33mwarning[0m[0m[1m: field is never read: `local_chains`[0m
+[0m [0m[0m[1m[38;5;12m--> [0m[0msrc/main.rs:6:5[0m
+[0m  [0m[0m[1m[38;5;12m|[0m
+[0m[1m[38;5;12m6[0m[0m [0m[0m[1m[38;5;12m| [0m[0m    pub local_chains: Rc<Vec<Rc<RefCell<Chain>>>>,[0m
+[0m  [0m[0m[1m[38;5;12m| [0m[0m    [0m[0m[1m[33m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m  [0m[0m[1m[38;5;12m|[0m
+[0m  [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: `#[warn(dead_code)]` on by default[0m
+
+[0m[1m[33mwarning[0m[0m[1m: field is never read: `rpc_client`[0m
+[0m  [0m[0m[1m[38;5;12m--> [0m[0msrc/main.rs:23:5[0m
+[0m   [0m[0m[1m[38;5;12m|[0m
+[0m[1m[38;5;12m23[0m[0m [0m[0m[1m[38;5;12m| [0m[0m    rpc_client: Client,[0m
+[0m   [0m[0m[1m[38;5;12m| [0m[0m    [0m[0m[1m[33m^^^^^^^^^^^^^^^^^^[0m
+
+[0m[0m[1m[33mwarning[0m[1m:[0m `cursivetry` (bin "cursivetry") generated 2 warnings
+[0m[0m[1m[32m    Finished[0m dev [unoptimized + debuginfo] target(s) in 1.71s
+[0m[0m[1m[32m     Running[0m `target/debug/cursivetry`
+[src/main.rs:28] &name.as_ref() = "VRSC"
+[/home/n41r0j/dev/rust/rust-vrsc-rpc/client/src/chain_config.rs:70] &path = "/home/n41r0j/.komodo/VRSC/VRSC.conf"
+[/home/n41r0j/dev/rust/rust-vrsc-rpc/client/src/chain_config.rs:70] &path = "/home/n41r0j/.komodo/VRSC/VRSC.conf"
+[0m[0m[1m[32m   Compiling[0m cursivetry v0.1.0 (/home/n41r0j/dev/rust/cursivetry)
+[0m[1m[33mwarning[0m[0m[1m: field is never read: `local_chains`[0m
+[0m [0m[0m[1m[38;5;12m--> [0m[0msrc/main.rs:6:5[0m
+[0m  [0m[0m[1m[38;5;12m|[0m
+[0m[1m[38;5;12m6[0m[0m [0m[0m[1m[38;5;12m| [0m[0m    pub local_chains: Rc<Vec<Rc<RefCell<Chain>>>>,[0m
+[0m  [0m[0m[1m[38;5;12m| [0m[0m    [0m[0m[1m[33m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m  [0m[0m[1m[38;5;12m|[0m
+[0m  [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: `#[warn(dead_code)]` on by default[0m
+
+[0m[1m[33mwarning[0m[0m[1m: field is never read: `rpc_client`[0m
+[0m  [0m[0m[1m[38;5;12m--> [0m[0msrc/main.rs:23:5[0m
+[0m   [0m[0m[1m[38;5;12m|[0m
+[0m[1m[38;5;12m23[0m[0m [0m[0m[1m[38;5;12m| [0m[0m    rpc_client: Client,[0m
+[0m   [0m[0m[1m[38;5;12m| [0m[0m    [0m[0m[1m[33m^^^^^^^^^^^^^^^^^^[0m
+
+[0m[0m[1m[33mwarning[0m[1m:[0m `cursivetry` (bin "cursivetry") generated 2 warnings
+[0m[0m[1m[32m    Finished[0m dev [unoptimized + debuginfo] target(s) in 1.68s
+[0m[0m[1m[32m     Running[0m `target/debug/cursivetry`
+[/home/n41r0j/dev/rust/rust-vrsc-rpc/client/src/chain_config.rs:70] &path = "/home/n41r0j/.komodo/VRSC/VRSC.conf"
+[/home/n41r0j/dev/rust/rust-vrsc-rpc/client/src/chain_config.rs:70] &path = "/home/n41r0j/.komodo/VRSC/VRSC.conf"
+[src/main.rs:74] &name = "VRSC"
+[src/main.rs:74] &name = "vrsctest"
+[0m[0m[1m[32m   Compiling[0m cursivetry v0.1.0 (/home/n41r0j/dev/rust/cursivetry)
+[0m[1m[33mwarning[0m[0m[1m: unused import: `Auth`[0m
+[0m [0m[0m[1m[38;5;12m--> [0m[0msrc/main.rs:3:16[0m
+[0m  [0m[0m[1m[38;5;12m|[0m
+[0m[1m[38;5;12m3[0m[0m [0m[0m[1m[38;5;12m| [0m[0muse vrsc_rpc::{Auth, Client};[0m
+[0m  [0m[0m[1m[38;5;12m| [0m[0m               [0m[0m[1m[33m^^^^[0m
+[0m  [0m[0m[1m[38;5;12m|[0m
+[0m  [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: `#[warn(unused_imports)]` on by default[0m
+
+[0m[1m[33mwarning[0m[0m[1m: field is never read: `rpc_client`[0m
+[0m  [0m[0m[1m[38;5;12m--> [0m[0msrc/main.rs:22:5[0m
+[0m   [0m[0m[1m[38;5;12m|[0m
+[0m[1m[38;5;12m22[0m[0m [0m[0m[1m[38;5;12m| [0m[0m    rpc_client: Client,[0m
+[0m   [0m[0m[1m[38;5;12m| [0m[0m    [0m[0m[1m[33m^^^^^^^^^^^^^^^^^^[0m
+[0m   [0m[0m[1m[38;5;12m|[0m
+[0m   [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: `#[warn(dead_code)]` on by default[0m
+
+[0m[0m[1m[33mwarning[0m[1m:[0m `cursivetry` (bin "cursivetry") generated 2 warnings
+[0m[0m[1m[32m    Finished[0m dev [unoptimized + debuginfo] target(s) in 1.79s
+[0m[0m[1m[32m     Running[0m `target/debug/cursivetry`
+[/home/n41r0j/dev/rust/rust-vrsc-rpc/client/src/chain_config.rs:70] &path = "/home/n41r0j/.komodo/VRSC/VRSC.conf"
+[src/main.rs:47] &name = "Test"
+[0m[0m[1m[32m   Compiling[0m cursivetry v0.1.0 (/home/n41r0j/dev/rust/cursivetry)
+[0m[1m[33mwarning[0m[0m[1m: unused import: `Auth`[0m
+[0m [0m[0m[1m[38;5;12m--> [0m[0msrc/main.rs:3:16[0m
+[0m  [0m[0m[1m[38;5;12m|[0m
+[0m[1m[38;5;12m3[0m[0m [0m[0m[1m[38;5;12m| [0m[0muse vrsc_rpc::{Auth, Client};[0m
+[0m  [0m[0m[1m[38;5;12m| [0m[0m               [0m[0m[1m[33m^^^^[0m
+[0m  [0m[0m[1m[38;5;12m|[0m
+[0m  [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: `#[warn(unused_imports)]` on by default[0m
+
+[0m[1m[33mwarning[0m[0m[1m: field is never read: `rpc_client`[0m
+[0m  [0m[0m[1m[38;5;12m--> [0m[0msrc/main.rs:24:5[0m
+[0m   [0m[0m[1m[38;5;12m|[0m
+[0m[1m[38;5;12m24[0m[0m [0m[0m[1m[38;5;12m| [0m[0m    rpc_client: Client,[0m
+[0m   [0m[0m[1m[38;5;12m| [0m[0m    [0m[0m[1m[33m^^^^^^^^^^^^^^^^^^[0m
+[0m   [0m[0m[1m[38;5;12m|[0m
+[0m   [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: `#[warn(dead_code)]` on by default[0m
+
+[0m[0m[1m[33mwarning[0m[1m:[0m `cursivetry` (bin "cursivetry") generated 2 warnings
+[0m[0m[1m[32m    Finished[0m dev [unoptimized + debuginfo] target(s) in 1.66s
+[0m[0m[1m[32m     Running[0m `target/debug/cursivetry`
+[/home/n41r0j/dev/rust/rust-vrsc-rpc/client/src/chain_config.rs:70] &path = "/home/n41r0j/.komodo/VRSC/VRSC.conf"
+[/home/n41r0j/dev/rust/rust-vrsc-rpc/client/src/chain_config.rs:70] &path = "/home/n41r0j/.komodo/VRSC/VRSC.conf"
+[src/main.rs:49] &name = "VRSC"
+[src/main.rs:49] &name = "VRSCTEST"
+[0m[0m[1m[32m   Compiling[0m vrsc-rpc v0.0.1 (/home/n41r0j/dev/rust/rust-vrsc-rpc/client)
+[0m[0m[1m[32m   Compiling[0m cursivetry v0.1.0 (/home/n41r0j/dev/rust/cursivetry)
+[0m[1m[33mwarning[0m[0m[1m: unused import: `Auth`[0m
+[0m [0m[0m[1m[38;5;12m--> [0m[0msrc/main.rs:3:16[0m
+[0m  [0m[0m[1m[38;5;12m|[0m
+[0m[1m[38;5;12m3[0m[0m [0m[0m[1m[38;5;12m| [0m[0muse vrsc_rpc::{Auth, Client};[0m
+[0m  [0m[0m[1m[38;5;12m| [0m[0m               [0m[0m[1m[33m^^^^[0m
+[0m  [0m[0m[1m[38;5;12m|[0m
+[0m  [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: `#[warn(unused_imports)]` on by default[0m
+
+[0m[1m[38;5;9merror[E0282][0m[0m[1m: type annotations needed[0m
+[0m  [0m[0m[1m[38;5;12m--> [0m[0msrc/main.rs:53:33[0m
+[0m   [0m[0m[1m[38;5;12m|[0m
+[0m[1m[38;5;12m53[0m[0m [0m[0m[1m[38;5;12m| [0m[0m        for chain in data_clone.borrow().local_chains.iter() {[0m
+[0m   [0m[0m[1m[38;5;12m| [0m[0m                     [0m[0m[1m[38;5;12m-----------[0m[0m[1m[38;5;9m^^^^^^[0m[0m[1m[38;5;12m--[0m
+[0m   [0m[0m[1m[38;5;12m| [0m[0m                     [0m[0m[1m[38;5;12m|[0m[0m          [0m[0m[1m[38;5;9m|[0m
+[0m   [0m[0m[1m[38;5;12m| [0m[0m                     [0m[0m[1m[38;5;12m|[0m[0m          [0m[0m[1m[38;5;9mcannot infer type for type parameter `Borrowed` declared on the trait `Borrow`[0m
+[0m   [0m[0m[1m[38;5;12m| [0m[0m                     [0m[0m[1m[38;5;12mthis method call resolves to `&Borrowed`[0m
+[0m   [0m[0m[1m[38;5;12m|[0m
+[0m   [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: type must be known at this point[0m
+
+[0m[1m[38;5;9merror[E0609][0m[0m[1m: no field `local_chains` on type `&_`[0m
+[0m  [0m[0m[1m[38;5;12m--> [0m[0msrc/main.rs:53:42[0m
+[0m   [0m[0m[1m[38;5;12m|[0m
+[0m[1m[38;5;12m53[0m[0m [0m[0m[1m[38;5;12m| [0m[0m        for chain in data_clone.borrow().local_chains.iter() {[0m
+[0m   [0m[0m[1m[38;5;12m| [0m[0m                                         [0m[0m[1m[38;5;9m^^^^^^^^^^^^[0m
+
+[0m[1m[38;5;9merror[E0599][0m[0m[1m: no method named `borrow_mut` found for struct `Rc<_>` in the current scope[0m
+[0m  [0m[0m[1m[38;5;12m--> [0m[0msrc/main.rs:55:30[0m
+[0m   [0m[0m[1m[38;5;12m|[0m
+[0m[1m[38;5;12m55[0m[0m [0m[0m[1m[38;5;12m| [0m[0m            let name = chain.borrow_mut().name.clone();[0m
+[0m   [0m[0m[1m[38;5;12m| [0m[0m                             [0m[0m[1m[38;5;9m^^^^^^^^^^[0m[0m [0m[0m[1m[38;5;9mmethod not found in `Rc<_>`[0m
+[0m   [0m[0m[1m[38;5;12m|[0m
+[0m   [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: `chain` is a function, perhaps you wish to call it[0m
+
+[0m[1m[38;5;9merror[E0599][0m[0m[1m: no method named `clone` found for struct `Rc<_>` in the current scope[0m
+[0m  [0m[0m[1m[38;5;12m--> [0m[0msrc/main.rs:59:60[0m
+[0m   [0m[0m[1m[38;5;12m|[0m
+[0m[1m[38;5;12m59[0m[0m [0m[0m[1m[38;5;12m| [0m[0m                    data.borrow_mut().active_chain = chain.clone();[0m
+[0m   [0m[0m[1m[38;5;12m| [0m[0m                                                           [0m[0m[1m[38;5;9m^^^^^[0m[0m [0m[0m[1m[38;5;9mmethod not found in `Rc<_>`[0m
+[0m   [0m[0m[1m[38;5;12m|[0m
+[0m   [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: `chain` is a function, perhaps you wish to call it[0m
+
+[0m[1m[38;5;9merror[E0609][0m[0m[1m: no field `active_chain` on type `&_`[0m
+[0m  [0m[0m[1m[38;5;12m--> [0m[0msrc/main.rs:60:41[0m
+[0m   [0m[0m[1m[38;5;12m|[0m
+[0m[1m[38;5;12m60[0m[0m [0m[0m[1m[38;5;12m| [0m[0m                    dbg!(&data.borrow().active_chain);[0m
+[0m   [0m[0m[1m[38;5;12m| [0m[0m                                        [0m[0m[1m[38;5;9m^^^^^^^^^^^^[0m
+
+[0m[1mSome errors have detailed explanations: E0282, E0599, E0609.[0m
+[0m[1mFor more information about an error, try `rustc --explain E0282`.[0m
+[0m[0m[1m[33mwarning[0m[1m:[0m `cursivetry` (bin "cursivetry") generated 1 warning
+[0m[0m[1m[31merror[0m[1m:[0m could not compile `cursivetry` due to 5 previous errors; 1 warning emitted
+[0m[0m[1m[32m   Compiling[0m cursivetry v0.1.0 (/home/n41r0j/dev/rust/cursivetry)
+[0m[1m[33mwarning[0m[0m[1m: unused import: `Auth`[0m
+[0m [0m[0m[1m[38;5;12m--> [0m[0msrc/main.rs:3:16[0m
+[0m  [0m[0m[1m[38;5;12m|[0m
+[0m[1m[38;5;12m3[0m[0m [0m[0m[1m[38;5;12m| [0m[0muse vrsc_rpc::{Auth, Client};[0m
+[0m  [0m[0m[1m[38;5;12m| [0m[0m               [0m[0m[1m[33m^^^^[0m
+[0m  [0m[0m[1m[38;5;12m|[0m
+[0m  [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: `#[warn(unused_imports)]` on by default[0m
+
+[0m[1m[33mwarning[0m[0m[1m: field is never read: `rpc_client`[0m
+[0m  [0m[0m[1m[38;5;12m--> [0m[0msrc/main.rs:24:5[0m
+[0m   [0m[0m[1m[38;5;12m|[0m
+[0m[1m[38;5;12m24[0m[0m [0m[0m[1m[38;5;12m| [0m[0m    rpc_client: Client,[0m
+[0m   [0m[0m[1m[38;5;12m| [0m[0m    [0m[0m[1m[33m^^^^^^^^^^^^^^^^^^[0m
+[0m   [0m[0m[1m[38;5;12m|[0m
+[0m   [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: `#[warn(dead_code)]` on by default[0m
+
+[0m[0m[1m[33mwarning[0m[1m:[0m `cursivetry` (bin "cursivetry") generated 2 warnings
+[0m[0m[1m[32m    Finished[0m dev [unoptimized + debuginfo] target(s) in 1.69s
+[0m[0m[1m[32m     Running[0m `target/debug/cursivetry`
+[/home/n41r0j/dev/rust/rust-vrsc-rpc/client/src/chain_config.rs:70] &path = "/home/n41r0j/.komodo/VRSC/VRSC.conf"
+[/home/n41r0j/dev/rust/rust-vrsc-rpc/client/src/chain_config.rs:70] &path = "/home/n41r0j/.komodo/VRSC/VRSC.conf"
+[src/main.rs:49] &name = "VRSC"
+[src/main.rs:49] &name = "VRSCTEST"
+[0m[0m[1m[32m   Compiling[0m cursivetry v0.1.0 (/home/n41r0j/dev/rust/cursivetry)
+[0m[1m[33mwarning[0m[0m[1m: unused import: `Auth`[0m
+[0m [0m[0m[1m[38;5;12m--> [0m[0msrc/main.rs:3:16[0m
+[0m  [0m[0m[1m[38;5;12m|[0m
+[0m[1m[38;5;12m3[0m[0m [0m[0m[1m[38;5;12m| [0m[0muse vrsc_rpc::{Auth, Client};[0m
+[0m  [0m[0m[1m[38;5;12m| [0m[0m               [0m[0m[1m[33m^^^^[0m
+[0m  [0m[0m[1m[38;5;12m|[0m
+[0m  [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: `#[warn(unused_imports)]` on by default[0m
+
+[0m[1m[33mwarning[0m[0m[1m: field is never read: `rpc_client`[0m
+[0m  [0m[0m[1m[38;5;12m--> [0m[0msrc/main.rs:24:5[0m
+[0m   [0m[0m[1m[38;5;12m|[0m
+[0m[1m[38;5;12m24[0m[0m [0m[0m[1m[38;5;12m| [0m[0m    rpc_client: Client,[0m
+[0m   [0m[0m[1m[38;5;12m| [0m[0m    [0m[0m[1m[33m^^^^^^^^^^^^^^^^^^[0m
+[0m   [0m[0m[1m[38;5;12m|[0m
+[0m   [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: `#[warn(dead_code)]` on by default[0m
+
+[0m[0m[1m[33mwarning[0m[1m:[0m `cursivetry` (bin "cursivetry") generated 2 warnings
+[0m[0m[1m[32m    Finished[0m dev [unoptimized + debuginfo] target(s) in 1.71s
+[0m[0m[1m[32m     Running[0m `target/debug/cursivetry`
+[/home/n41r0j/dev/rust/rust-vrsc-rpc/client/src/chain_config.rs:70] &path = "/home/n41r0j/.komodo/VRSC/VRSC.conf"
+[/home/n41r0j/dev/rust/rust-vrsc-rpc/client/src/chain_config.rs:70] &path = "/home/n41r0j/.komodo/VRSC/VRSC.conf"
+[0m[0m[1m[32m   Compiling[0m cursivetry v0.1.0 (/home/n41r0j/dev/rust/cursivetry)
+[0m[1m[33mwarning[0m[0m[1m: unused import: `Auth`[0m
+[0m [0m[0m[1m[38;5;12m--> [0m[0msrc/main.rs:3:16[0m
+[0m  [0m[0m[1m[38;5;12m|[0m
+[0m[1m[38;5;12m3[0m[0m [0m[0m[1m[38;5;12m| [0m[0muse vrsc_rpc::{Auth, Client};[0m
+[0m  [0m[0m[1m[38;5;12m| [0m[0m               [0m[0m[1m[33m^^^^[0m
+[0m  [0m[0m[1m[38;5;12m|[0m
+[0m  [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: `#[warn(unused_imports)]` on by default[0m
+
+[0m[1m[33mwarning[0m[0m[1m: field is never read: `rpc_client`[0m
+[0m  [0m[0m[1m[38;5;12m--> [0m[0msrc/main.rs:24:5[0m
+[0m   [0m[0m[1m[38;5;12m|[0m
+[0m[1m[38;5;12m24[0m[0m [0m[0m[1m[38;5;12m| [0m[0m    rpc_client: Client,[0m
+[0m   [0m[0m[1m[38;5;12m| [0m[0m    [0m[0m[1m[33m^^^^^^^^^^^^^^^^^^[0m
+[0m   [0m[0m[1m[38;5;12m|[0m
+[0m   [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: `#[warn(dead_code)]` on by default[0m
+
+[0m[0m[1m[33mwarning[0m[1m:[0m `cursivetry` (bin "cursivetry") generated 2 warnings
+[0m[0m[1m[32m    Finished[0m dev [unoptimized + debuginfo] target(s) in 1.76s
+[0m[0m[1m[32m     Running[0m `target/debug/cursivetry`
+[/home/n41r0j/dev/rust/rust-vrsc-rpc/client/src/chain_config.rs:70] &path = "/home/n41r0j/.komodo/VRSC/VRSC.conf"
+[/home/n41r0j/dev/rust/rust-vrsc-rpc/client/src/chain_config.rs:70] &path = "/home/n41r0j/.komodo/VRSC/VRSC.conf"
+[src/main.rs:59] &data.borrow().active_chain = RefCell {
+    value: Chain {
+        name: "VRSC",
+    },
+}
+[src/main.rs:59] &data.borrow().active_chain = RefCell {
+    value: Chain {
+        name: "VRSCTEST",
+    },
+}
