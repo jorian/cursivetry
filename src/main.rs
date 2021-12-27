@@ -10,10 +10,11 @@ impl Data {
     pub fn new() -> Self {
         let chain = Rc::new(RefCell::new(Chain::new("VRSC")));
         let another_chain = Rc::new(RefCell::new(Chain::new("VRSCTEST")));
+        let another_another_chain = Rc::new(RefCell::new(Chain::new("mutt")));
 
         let data = Data {
             active_chain: Rc::clone(&chain),
-            local_chains: Rc::new(vec![chain, another_chain]),
+            local_chains: Rc::new(vec![chain, another_chain, another_another_chain]),
         };
 
         data
@@ -25,8 +26,8 @@ struct Chain {
 }
 
 impl Chain {
-    pub fn new<S: Into<String>>(name: S) -> Self {
-        let rpc_client = Client::default();
+    pub fn new<S: Into<String> + AsRef<str>>(name: S) -> Self {
+        let rpc_client = Client::chain(name.as_ref().into(), Auth::ConfigFile).expect("a client");
         Chain {
             name: name.into(),
             rpc_client,
@@ -51,7 +52,7 @@ fn main() {
     let menutree = cursive::menu::MenuTree::new().with(move |tree| {
         for chain in data_clone.borrow().local_chains.iter() {
             let chain = Rc::clone(chain);
-            let name = chain.borrow_mut().name.clone();
+            let name = chain.borrow().name.clone();
 
             tree.add_leaf(name, move |s| {
                 s.with_user_data(|data: &mut Rc<RefCell<Data>>| {
@@ -67,22 +68,3 @@ fn main() {
 
     siv.run();
 }
-// let local_chains = vec![
-//     {
-//         let rpc_client = Client::chain("VRSC".into(), Auth::ConfigFile).expect("A client");
-//         Rc::new(RefCell::new(Chain {
-//             name: "VRSC".into(),
-//             rpc_client,
-//         }))
-//     },
-//     {
-//         let rpc_client =
-//             Client::chain("vrsctest".into(), Auth::ConfigFile).expect("A client");
-//         Rc::new(RefCell::new(Chain {
-//             name: "vrsctest".into(),
-//             rpc_client,
-//         }))
-//     },
-// ];
-// the problem: by borrowing local_chains here from Data to iterate through them, we call a &mut twice on Data in the add_leaf function
-// which isn't possible.
