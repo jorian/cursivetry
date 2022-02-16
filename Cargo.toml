@@ -7,5 +7,5 @@ edition = "2021"
 
 [dependencies]
 cursive = "0.16"
-vrsc-rpc = { path = "../rust-vrsc-rpc/client" }
-lazy_static = "1.4"
+# vrsc-rpc = { path = "../rust-vrsc-rpc/client" }
+# lazy_static = "1.4"
