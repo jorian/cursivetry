@@ -3437,3 +3437,628 @@ note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
     poisoned: false,
     ..
 }
+[0m[0m[1m[32m   Compiling[0m cursivetry v0.1.0 (/home/n41r0j/dev/rust/cursivetry)
+[0m[1m[33mwarning[0m[0m[1m: unused imports: `Arc`, `RwLock`[0m
+[0m [0m[0m[1m[38;5;12m--> [0m[0msrc/lib.rs:1:17[0m
+[0m  [0m[0m[1m[38;5;12m|[0m
+[0m[1m[38;5;12m1[0m[0m [0m[0m[1m[38;5;12m| [0m[0muse std::sync::{Arc, RwLock};[0m
+[0m  [0m[0m[1m[38;5;12m| [0m[0m                [0m[0m[1m[33m^^^[0m[0m  [0m[0m[1m[33m^^^^^^[0m
+[0m  [0m[0m[1m[38;5;12m|[0m
+[0m  [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: `#[warn(unused_imports)]` on by default[0m
+
+[0m[1m[33mwarning[0m[0m[1m: unused import: `controller::Chain`[0m
+[0m [0m[0m[1m[38;5;12m--> [0m[0msrc/lib.rs:3:5[0m
+[0m  [0m[0m[1m[38;5;12m|[0m
+[0m[1m[38;5;12m3[0m[0m [0m[0m[1m[38;5;12m| [0m[0muse controller::Chain;[0m
+[0m  [0m[0m[1m[38;5;12m| [0m[0m    [0m[0m[1m[33m^^^^^^^^^^^^^^^^^[0m
+
+[0m[0m[1m[33mwarning[0m[1m:[0m `cursivetry` (lib) generated 2 warnings
+[0m[0m[1m[32m    Finished[0m dev [unoptimized + debuginfo] target(s) in 1.29s
+[0m[0m[1m[32m     Running[0m `target/debug/cursivetry`
+[src/aview.rs:23] &chain = RwLock {
+    data: Chain {
+        name: "1",
+    },
+    poisoned: false,
+    ..
+}
+[src/aview.rs:23] &chain = RwLock {
+    data: Chain {
+        name: "1",
+    },
+    poisoned: false,
+    ..
+}
+[src/aview.rs:23] &chain = RwLock {
+    data: Chain {
+        name: "1",
+    },
+    poisoned: false,
+    ..
+}
+[src/aview.rs:23] &chain = RwLock {
+    data: Chain {
+        name: "1",
+    },
+    poisoned: false,
+    ..
+}
+[src/aview.rs:23] &chain = RwLock {
+    data: Chain {
+        name: "1",
+    },
+    poisoned: false,
+    ..
+}
+[src/controller.rs:49] &new_chain = Some(
+    RwLock {
+        data: Chain {
+            name: "4",
+        },
+        poisoned: false,
+        ..
+    },
+)
+[src/aview.rs:23] &chain = RwLock {
+    data: Chain {
+        name: "1",
+    },
+    poisoned: false,
+    ..
+}
+[0m[0m[1m[32m   Compiling[0m cursivetry v0.1.0 (/home/n41r0j/dev/rust/cursivetry)
+[0m[1m[33mwarning[0m[0m[1m: unused imports: `Arc`, `RwLock`[0m
+[0m [0m[0m[1m[38;5;12m--> [0m[0msrc/lib.rs:1:17[0m
+[0m  [0m[0m[1m[38;5;12m|[0m
+[0m[1m[38;5;12m1[0m[0m [0m[0m[1m[38;5;12m| [0m[0muse std::sync::{Arc, RwLock};[0m
+[0m  [0m[0m[1m[38;5;12m| [0m[0m                [0m[0m[1m[33m^^^[0m[0m  [0m[0m[1m[33m^^^^^^[0m
+[0m  [0m[0m[1m[38;5;12m|[0m
+[0m  [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: `#[warn(unused_imports)]` on by default[0m
+
+[0m[1m[33mwarning[0m[0m[1m: unused import: `controller::Chain`[0m
+[0m [0m[0m[1m[38;5;12m--> [0m[0msrc/lib.rs:3:5[0m
+[0m  [0m[0m[1m[38;5;12m|[0m
+[0m[1m[38;5;12m3[0m[0m [0m[0m[1m[38;5;12m| [0m[0muse controller::Chain;[0m
+[0m  [0m[0m[1m[38;5;12m| [0m[0m    [0m[0m[1m[33m^^^^^^^^^^^^^^^^^[0m
+
+[0m[0m[1m[33mwarning[0m[1m:[0m `cursivetry` (lib) generated 2 warnings
+[0m[0m[1m[32m    Finished[0m dev [unoptimized + debuginfo] target(s) in 0.85s
+[0m[0m[1m[32m     Running[0m `target/debug/cursivetry`
+[src/aview.rs:23] &chain = RwLock {
+    data: Chain {
+        name: "1",
+    },
+    poisoned: false,
+    ..
+}
+[src/aview.rs:23] &chain = RwLock {
+    data: Chain {
+        name: "1",
+    },
+    poisoned: false,
+    ..
+}
+[src/aview.rs:23] &chain = RwLock {
+    data: Chain {
+        name: "1",
+    },
+    poisoned: false,
+    ..
+}
+[src/aview.rs:23] &chain = RwLock {
+    data: Chain {
+        name: "1",
+    },
+    poisoned: false,
+    ..
+}
+[src/controller.rs:49] &new_chain = Some(
+    RwLock {
+        data: Chain {
+            name: "0",
+        },
+        poisoned: false,
+        ..
+    },
+)
+[src/aview.rs:23] &chain = RwLock {
+    data: Chain {
+        name: "1",
+    },
+    poisoned: false,
+    ..
+}
+[0m[0m[1m[32m   Compiling[0m cursivetry v0.1.0 (/home/n41r0j/dev/rust/cursivetry)
+[0m[1m[33mwarning[0m[0m[1m: unused imports: `Arc`, `RwLock`[0m
+[0m [0m[0m[1m[38;5;12m--> [0m[0msrc/lib.rs:1:17[0m
+[0m  [0m[0m[1m[38;5;12m|[0m
+[0m[1m[38;5;12m1[0m[0m [0m[0m[1m[38;5;12m| [0m[0muse std::sync::{Arc, RwLock};[0m
+[0m  [0m[0m[1m[38;5;12m| [0m[0m                [0m[0m[1m[33m^^^[0m[0m  [0m[0m[1m[33m^^^^^^[0m
+[0m  [0m[0m[1m[38;5;12m|[0m
+[0m  [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: `#[warn(unused_imports)]` on by default[0m
+
+[0m[1m[33mwarning[0m[0m[1m: unused import: `controller::Chain`[0m
+[0m [0m[0m[1m[38;5;12m--> [0m[0msrc/lib.rs:3:5[0m
+[0m  [0m[0m[1m[38;5;12m|[0m
+[0m[1m[38;5;12m3[0m[0m [0m[0m[1m[38;5;12m| [0m[0muse controller::Chain;[0m
+[0m  [0m[0m[1m[38;5;12m| [0m[0m    [0m[0m[1m[33m^^^^^^^^^^^^^^^^^[0m
+
+[0m[0m[1m[33mwarning[0m[1m:[0m `cursivetry` (lib) generated 2 warnings
+[0m[0m[1m[32m    Finished[0m dev [unoptimized + debuginfo] target(s) in 0.88s
+[0m[0m[1m[32m     Running[0m `target/debug/cursivetry`
+[src/aview.rs:23] &chain = RwLock {
+    data: Chain {
+        name: "1",
+    },
+    poisoned: false,
+    ..
+}
+[src/controller.rs:49] &new_chain = Some(
+    RwLock {
+        data: Chain {
+            name: "0",
+        },
+        poisoned: false,
+        ..
+    },
+)
+[src/controller.rs:52] &self.selected_chain = RwLock {
+    data: <locked>,
+    poisoned: false,
+    ..
+}
+[src/controller.rs:49] &new_chain = Some(
+    RwLock {
+        data: Chain {
+            name: "0",
+        },
+        poisoned: false,
+        ..
+    },
+)
+[src/controller.rs:52] &self.selected_chain = RwLock {
+    data: <locked>,
+    poisoned: false,
+    ..
+}
+[src/aview.rs:23] &chain = RwLock {
+    data: Chain {
+        name: "1",
+    },
+    poisoned: false,
+    ..
+}
+[0m[0m[1m[32m   Compiling[0m cursivetry v0.1.0 (/home/n41r0j/dev/rust/cursivetry)
+[0m[1m[33mwarning[0m[0m[1m: unused imports: `Arc`, `RwLock`[0m
+[0m [0m[0m[1m[38;5;12m--> [0m[0msrc/lib.rs:1:17[0m
+[0m  [0m[0m[1m[38;5;12m|[0m
+[0m[1m[38;5;12m1[0m[0m [0m[0m[1m[38;5;12m| [0m[0muse std::sync::{Arc, RwLock};[0m
+[0m  [0m[0m[1m[38;5;12m| [0m[0m                [0m[0m[1m[33m^^^[0m[0m  [0m[0m[1m[33m^^^^^^[0m
+[0m  [0m[0m[1m[38;5;12m|[0m
+[0m  [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: `#[warn(unused_imports)]` on by default[0m
+
+[0m[1m[33mwarning[0m[0m[1m: unused import: `controller::Chain`[0m
+[0m [0m[0m[1m[38;5;12m--> [0m[0msrc/lib.rs:3:5[0m
+[0m  [0m[0m[1m[38;5;12m|[0m
+[0m[1m[38;5;12m3[0m[0m [0m[0m[1m[38;5;12m| [0m[0muse controller::Chain;[0m
+[0m  [0m[0m[1m[38;5;12m| [0m[0m    [0m[0m[1m[33m^^^^^^^^^^^^^^^^^[0m
+
+[0m[0m[1m[33mwarning[0m[1m:[0m `cursivetry` (lib) generated 2 warnings
+[0m[0m[1m[32m    Finished[0m dev [unoptimized + debuginfo] target(s) in 0.88s
+[0m[0m[1m[32m     Running[0m `target/debug/cursivetry`
+[src/aview.rs:23] &chain = RwLock {
+    data: Chain {
+        name: "1",
+    },
+    poisoned: false,
+    ..
+}
+[src/controller.rs:49] &new_chain = Some(
+    RwLock {
+        data: Chain {
+            name: "3",
+        },
+        poisoned: false,
+        ..
+    },
+)
+[src/controller.rs:54] &self.selected_chain = RwLock {
+    data: Some(
+        RwLock {
+            data: Chain {
+                name: "3",
+            },
+            poisoned: false,
+            ..
+        },
+    ),
+    poisoned: false,
+    ..
+}
+[0m[0m[1m[32m   Compiling[0m cursivetry v0.1.0 (/home/n41r0j/dev/rust/cursivetry)
+[0m[1m[33mwarning[0m[0m[1m: unused imports: `Arc`, `RwLock`[0m
+[0m [0m[0m[1m[38;5;12m--> [0m[0msrc/lib.rs:1:17[0m
+[0m  [0m[0m[1m[38;5;12m|[0m
+[0m[1m[38;5;12m1[0m[0m [0m[0m[1m[38;5;12m| [0m[0muse std::sync::{Arc, RwLock};[0m
+[0m  [0m[0m[1m[38;5;12m| [0m[0m                [0m[0m[1m[33m^^^[0m[0m  [0m[0m[1m[33m^^^^^^[0m
+[0m  [0m[0m[1m[38;5;12m|[0m
+[0m  [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: `#[warn(unused_imports)]` on by default[0m
+
+[0m[1m[33mwarning[0m[0m[1m: unused import: `controller::Chain`[0m
+[0m [0m[0m[1m[38;5;12m--> [0m[0msrc/lib.rs:3:5[0m
+[0m  [0m[0m[1m[38;5;12m|[0m
+[0m[1m[38;5;12m3[0m[0m [0m[0m[1m[38;5;12m| [0m[0muse controller::Chain;[0m
+[0m  [0m[0m[1m[38;5;12m| [0m[0m    [0m[0m[1m[33m^^^^^^^^^^^^^^^^^[0m
+
+[0m[0m[1m[33mwarning[0m[1m:[0m `cursivetry` (lib) generated 2 warnings
+[0m[0m[1m[32m    Finished[0m dev [unoptimized + debuginfo] target(s) in 0.90s
+[0m[0m[1m[32m     Running[0m `target/debug/cursivetry`
+[src/aview.rs:24] &clone = RwLock {
+    data: Some(
+        RwLock {
+            data: Chain {
+                name: "1",
+            },
+            poisoned: false,
+            ..
+        },
+    ),
+    poisoned: false,
+    ..
+}
+[src/controller.rs:49] &new_chain = Some(
+    RwLock {
+        data: Chain {
+            name: "2",
+        },
+        poisoned: false,
+        ..
+    },
+)
+[src/controller.rs:54] &self.selected_chain = RwLock {
+    data: Some(
+        RwLock {
+            data: Chain {
+                name: "2",
+            },
+            poisoned: false,
+            ..
+        },
+    ),
+    poisoned: false,
+    ..
+}
+[src/aview.rs:24] &clone = RwLock {
+    data: Some(
+        RwLock {
+            data: Chain {
+                name: "2",
+            },
+            poisoned: false,
+            ..
+        },
+    ),
+    poisoned: false,
+    ..
+}
+[src/controller.rs:49] &new_chain = Some(
+    RwLock {
+        data: Chain {
+            name: "0",
+        },
+        poisoned: false,
+        ..
+    },
+)
+[src/controller.rs:54] &self.selected_chain = RwLock {
+    data: Some(
+        RwLock {
+            data: Chain {
+                name: "0",
+            },
+            poisoned: false,
+            ..
+        },
+    ),
+    poisoned: false,
+    ..
+}
+[src/aview.rs:24] &clone = RwLock {
+    data: Some(
+        RwLock {
+            data: Chain {
+                name: "0",
+            },
+            poisoned: false,
+            ..
+        },
+    ),
+    poisoned: false,
+    ..
+}
+[src/aview.rs:24] &clone = RwLock {
+    data: Some(
+        RwLock {
+            data: Chain {
+                name: "0",
+            },
+            poisoned: false,
+            ..
+        },
+    ),
+    poisoned: false,
+    ..
+}
+[src/aview.rs:24] &clone = RwLock {
+    data: Some(
+        RwLock {
+            data: Chain {
+                name: "0",
+            },
+            poisoned: false,
+            ..
+        },
+    ),
+    poisoned: false,
+    ..
+}
+[0m[0m[1m[32m   Compiling[0m cursivetry v0.1.0 (/home/n41r0j/dev/rust/cursivetry)
+[0m[1m[33mwarning[0m[0m[1m: unused imports: `Arc`, `RwLock`[0m
+[0m [0m[0m[1m[38;5;12m--> [0m[0msrc/lib.rs:1:17[0m
+[0m  [0m[0m[1m[38;5;12m|[0m
+[0m[1m[38;5;12m1[0m[0m [0m[0m[1m[38;5;12m| [0m[0muse std::sync::{Arc, RwLock};[0m
+[0m  [0m[0m[1m[38;5;12m| [0m[0m                [0m[0m[1m[33m^^^[0m[0m  [0m[0m[1m[33m^^^^^^[0m
+[0m  [0m[0m[1m[38;5;12m|[0m
+[0m  [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: `#[warn(unused_imports)]` on by default[0m
+
+[0m[1m[33mwarning[0m[0m[1m: unused import: `controller::Chain`[0m
+[0m [0m[0m[1m[38;5;12m--> [0m[0msrc/lib.rs:3:5[0m
+[0m  [0m[0m[1m[38;5;12m|[0m
+[0m[1m[38;5;12m3[0m[0m [0m[0m[1m[38;5;12m| [0m[0muse controller::Chain;[0m
+[0m  [0m[0m[1m[38;5;12m| [0m[0m    [0m[0m[1m[33m^^^^^^^^^^^^^^^^^[0m
+
+[0m[0m[1m[33mwarning[0m[1m:[0m `cursivetry` (lib) generated 2 warnings
+[0m[0m[1m[32m    Finished[0m dev [unoptimized + debuginfo] target(s) in 0.96s
+[0m[0m[1m[32m     Running[0m `target/debug/cursivetry`
+[src/aview.rs:24] &clone = RwLock {
+    data: Some(
+        RwLock {
+            data: Chain {
+                name: "1",
+            },
+            poisoned: false,
+            ..
+        },
+    ),
+    poisoned: false,
+    ..
+}
+[src/aview.rs:28] &read_chain.name = "1"
+[src/controller.rs:49] &new_chain = Some(
+    RwLock {
+        data: Chain {
+            name: "3",
+        },
+        poisoned: false,
+        ..
+    },
+)
+[src/controller.rs:54] &self.selected_chain = RwLock {
+    data: Some(
+        RwLock {
+            data: Chain {
+                name: "3",
+            },
+            poisoned: false,
+            ..
+        },
+    ),
+    poisoned: false,
+    ..
+}
+[src/aview.rs:24] &clone = RwLock {
+    data: Some(
+        RwLock {
+            data: Chain {
+                name: "3",
+            },
+            poisoned: false,
+            ..
+        },
+    ),
+    poisoned: false,
+    ..
+}
+[src/aview.rs:28] &read_chain.name = "3"
+[src/aview.rs:24] &clone = RwLock {
+    data: Some(
+        RwLock {
+            data: Chain {
+                name: "3",
+            },
+            poisoned: false,
+            ..
+        },
+    ),
+    poisoned: false,
+    ..
+}
+[src/aview.rs:28] &read_chain.name = "3"
+[0m[0m[1m[32m   Compiling[0m cursivetry v0.1.0 (/home/n41r0j/dev/rust/cursivetry)
+[0m[1m[33mwarning[0m[0m[1m: unused imports: `Arc`, `RwLock`[0m
+[0m [0m[0m[1m[38;5;12m--> [0m[0msrc/lib.rs:1:17[0m
+[0m  [0m[0m[1m[38;5;12m|[0m
+[0m[1m[38;5;12m1[0m[0m [0m[0m[1m[38;5;12m| [0m[0muse std::sync::{Arc, RwLock};[0m
+[0m  [0m[0m[1m[38;5;12m| [0m[0m                [0m[0m[1m[33m^^^[0m[0m  [0m[0m[1m[33m^^^^^^[0m
+[0m  [0m[0m[1m[38;5;12m|[0m
+[0m  [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: `#[warn(unused_imports)]` on by default[0m
+
+[0m[1m[33mwarning[0m[0m[1m: unused import: `controller::Chain`[0m
+[0m [0m[0m[1m[38;5;12m--> [0m[0msrc/lib.rs:3:5[0m
+[0m  [0m[0m[1m[38;5;12m|[0m
+[0m[1m[38;5;12m3[0m[0m [0m[0m[1m[38;5;12m| [0m[0muse controller::Chain;[0m
+[0m  [0m[0m[1m[38;5;12m| [0m[0m    [0m[0m[1m[33m^^^^^^^^^^^^^^^^^[0m
+
+[0m[0m[1m[33mwarning[0m[1m:[0m `cursivetry` (lib) generated 2 warnings
+[0m[0m[1m[32m    Finished[0m dev [unoptimized + debuginfo] target(s) in 0.91s
+[0m[0m[1m[32m     Running[0m `target/debug/cursivetry`
+[src/aview.rs:22] &selected_chain = RwLock {
+    data: Some(
+        RwLock {
+            data: Chain {
+                name: "1",
+            },
+            poisoned: false,
+            ..
+        },
+    ),
+    poisoned: false,
+    ..
+}
+[src/aview.rs:26] &read_chain.name = "1"
+[src/aview.rs:22] &selected_chain = RwLock {
+    data: Some(
+        RwLock {
+            data: Chain {
+                name: "1",
+            },
+            poisoned: false,
+            ..
+        },
+    ),
+    poisoned: false,
+    ..
+}
+[src/aview.rs:26] &read_chain.name = "1"
+[src/aview.rs:22] &selected_chain = RwLock {
+    data: Some(
+        RwLock {
+            data: Chain {
+                name: "1",
+            },
+            poisoned: false,
+            ..
+        },
+    ),
+    poisoned: false,
+    ..
+}
+[src/aview.rs:26] &read_chain.name = "1"
+[src/aview.rs:22] &selected_chain = RwLock {
+    data: Some(
+        RwLock {
+            data: Chain {
+                name: "1",
+            },
+            poisoned: false,
+            ..
+        },
+    ),
+    poisoned: false,
+    ..
+}
+[src/aview.rs:26] &read_chain.name = "1"
+[src/controller.rs:49] &new_chain = Some(
+    RwLock {
+        data: Chain {
+            name: "0",
+        },
+        poisoned: false,
+        ..
+    },
+)
+[src/controller.rs:54] &self.selected_chain = RwLock {
+    data: Some(
+        RwLock {
+            data: Chain {
+                name: "0",
+            },
+            poisoned: false,
+            ..
+        },
+    ),
+    poisoned: false,
+    ..
+}
+[src/aview.rs:22] &selected_chain = RwLock {
+    data: Some(
+        RwLock {
+            data: Chain {
+                name: "0",
+            },
+            poisoned: false,
+            ..
+        },
+    ),
+    poisoned: false,
+    ..
+}
+[src/aview.rs:26] &read_chain.name = "0"
+[0m[0m[1m[32m   Compiling[0m cursivetry v0.1.0 (/home/n41r0j/dev/rust/cursivetry)
+[0m[1m[33mwarning[0m[0m[1m: unused imports: `Arc`, `RwLock`[0m
+[0m [0m[0m[1m[38;5;12m--> [0m[0msrc/lib.rs:1:17[0m
+[0m  [0m[0m[1m[38;5;12m|[0m
+[0m[1m[38;5;12m1[0m[0m [0m[0m[1m[38;5;12m| [0m[0muse std::sync::{Arc, RwLock};[0m
+[0m  [0m[0m[1m[38;5;12m| [0m[0m                [0m[0m[1m[33m^^^[0m[0m  [0m[0m[1m[33m^^^^^^[0m
+[0m  [0m[0m[1m[38;5;12m|[0m
+[0m  [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: `#[warn(unused_imports)]` on by default[0m
+
+[0m[1m[33mwarning[0m[0m[1m: unused import: `controller::Chain`[0m
+[0m [0m[0m[1m[38;5;12m--> [0m[0msrc/lib.rs:3:5[0m
+[0m  [0m[0m[1m[38;5;12m|[0m
+[0m[1m[38;5;12m3[0m[0m [0m[0m[1m[38;5;12m| [0m[0muse controller::Chain;[0m
+[0m  [0m[0m[1m[38;5;12m| [0m[0m    [0m[0m[1m[33m^^^^^^^^^^^^^^^^^[0m
+
+[0m[0m[1m[33mwarning[0m[1m:[0m `cursivetry` (lib) generated 2 warnings
+[0m[0m[1m[32m    Finished[0m dev [unoptimized + debuginfo] target(s) in 0.92s
+[0m[0m[1m[32m     Running[0m `target/debug/cursivetry`
+[src/aview.rs:20] &selected_chain = RwLock {
+    data: Some(
+        RwLock {
+            data: Chain {
+                name: "1",
+            },
+            poisoned: false,
+            ..
+        },
+    ),
+    poisoned: false,
+    ..
+}
+[src/aview.rs:24] &read_chain.name = "1"
+[src/controller.rs:49] &new_chain = Some(
+    RwLock {
+        data: Chain {
+            name: "2",
+        },
+        poisoned: false,
+        ..
+    },
+)
+[src/controller.rs:54] &self.selected_chain = RwLock {
+    data: Some(
+        RwLock {
+            data: Chain {
+                name: "2",
+            },
+            poisoned: false,
+            ..
+        },
+    ),
+    poisoned: false,
+    ..
+}
+[src/aview.rs:20] &selected_chain = RwLock {
+    data: Some(
+        RwLock {
+            data: Chain {
+                name: "2",
+            },
+            poisoned: false,
+            ..
+        },
+    ),
+    poisoned: false,
+    ..
+}
+[src/aview.rs:24] &read_chain.name = "2"

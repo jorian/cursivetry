@@ -10,7 +10,7 @@ pub struct Controller {
     pub c_rx: mpsc::Receiver<ControllerMessage>,
     pub ui: UI,
     pub chains: HashMap<String, Arc<RwLock<Chain>>>,
-    pub selected_chain: Option<Arc<RwLock<Chain>>>,
+    pub selected_chain: Arc<RwLock<Option<Arc<RwLock<Chain>>>>>,
 }
 
 impl Controller {
@@ -28,13 +28,13 @@ impl Controller {
         }
 
         let installed_chains = chains.keys().cloned().collect();
-        let selected_chain = chains.get("1").cloned();
+        let selected_chain = Arc::new(RwLock::new(chains.get("1").cloned()));
 
         Controller {
             c_rx,
-            ui: UI::new(c_tx.clone(), &installed_chains, selected_chain.clone()),
+            ui: UI::new(c_tx.clone(), &installed_chains, Arc::clone(&selected_chain)),
             chains,
-            selected_chain: selected_chain.clone(),
+            selected_chain: selected_chain,
         }
     }
 
@@ -43,13 +43,15 @@ impl Controller {
             if let Some(message) = self.c_rx.try_iter().next() {
                 match message {
                     ControllerMessage::SetActiveChain(chain) => {
-                        if let Some(_selected_chain) = &self.selected_chain {
-                            let new_chain = self.chains.get(&chain);
-                            dbg!(&new_chain);
-                            if let Some(new_chain) = new_chain {
-                                self.selected_chain = Some(Arc::clone(&new_chain));
+                        if let Ok(mut write_ref) = self.selected_chain.write() {
+                            if let Some(_selected_chain) = write_ref.as_mut() {
+                                let new_chain = self.chains.get(&chain);
+                                dbg!(&new_chain);
+
+                                *write_ref = new_chain.cloned();
                             }
                         }
+                        dbg!(&self.selected_chain);
                     }
                 }
             }

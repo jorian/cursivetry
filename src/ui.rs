@@ -15,7 +15,7 @@ impl UI {
     pub fn new(
         c_tx: mpsc::Sender<ControllerMessage>,
         chains: &Vec<String>,
-        selected_chain: Option<Arc<RwLock<Chain>>>,
+        selected_chain: Arc<RwLock<Option<Arc<RwLock<Chain>>>>>,
     ) -> Self {
         let mut siv = cursive::default().into_runner();
 

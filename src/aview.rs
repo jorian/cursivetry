@@ -12,21 +12,20 @@ pub struct AView {
 }
 
 impl AView {
-    pub fn new(selected_chain: Option<Arc<RwLock<Chain>>>) -> Self {
-        if let Some(selected_chain) = selected_chain {
-            let chain = Arc::clone(&selected_chain);
-            AView {
-                view: Dialog::new()
-                    .content(TextView::new("Hello"))
-                    .button("save", move |_siv| {
-                        dbg!(&chain);
-                        // it is here that i require the current `selected_chain`, but it 'sticks' to the one with which it was initiated
-                    }),
-            }
-        } else {
-            AView {
-                view: Dialog::new(),
-            }
+    pub fn new(selected_chain: Arc<RwLock<Option<Arc<RwLock<Chain>>>>>) -> Self {
+        AView {
+            view: Dialog::new()
+                .content(TextView::new("Hello"))
+                .button("save", move |_siv| {
+                    dbg!(&selected_chain);
+                    if let Ok(read_selected_chain) = selected_chain.read() {
+                        if let Some(chain) = read_selected_chain.as_ref() {
+                            if let Ok(read_chain) = chain.read() {
+                                dbg!(&read_chain.name);
+                            }
+                        }
+                    }
+                }),
         }
     }
 }
